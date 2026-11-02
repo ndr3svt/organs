@@ -1,0 +1,46 @@
+# class -> source -> queries. Queries cover organs as subjects, not whole creatures.
+# inat queries are filter labels: flowers | fruits | fungi
+animal:
+  commons:
+    - heart anatomy specimen
+    - dissected heart
+    - kidney specimen
+    - liver specimen
+    - lung specimen
+    - brain specimen
+    - eye anatomy dissection
+    - stomach organ specimen
+    - fish gills
+    - spleen specimen
+    - pancreas specimen
+  wellcome:
+    - heart specimen
+    - kidney specimen
+    - liver specimen
+    - lung specimen
+    - brain specimen
+    - eye specimen
+plant:
+  inat: [flowers, fruits]
+  commons:
+    - leaf close up
+    - tuber vegetable
+    - root vegetable
+    - seed pod
+    - fruit cut open
+    - flower close up
+fungal:
+  inat: [fungi]
+  commons:
+    - mushroom fruiting body
+    - bracket fungus
+    - mushroom gills
+metaphor:
+  commons:
+    - bellows
+    - hand pump
+    - circuit board
+    - rose window
+    - turbine rotor
+    - radiator
+    - valve mechanism
