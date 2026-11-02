@@ -20,6 +20,8 @@ Openverse is not used: its API did not respond when this was built.
 
 Images are never committed. `data/` is gitignored and holds the private dataset with a manifest recording the source URL, license, author, and class of every file. Only CC0, public domain, and CC BY family licenses without NoDerivatives are accepted. The license on a photo of an artwork (for example the HR Giger Museum photos used for `scifi`) covers the photograph, not the artwork itself, which is another reason the dataset and weights stay private. Trained weights are not published until the manifest licenses are audited, because share-alike and non-commercial terms can carry over to them.
 
+Life here includes its failures: the human organs in the `animal` class come largely from gross-pathology specimen photographs, so diseased organs (tumors, infections, aneurysms) are part of the dataset on purpose. The generated organs will sometimes look unwell.
+
 ## Classes
 
 | index | class | swatch |
