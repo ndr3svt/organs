@@ -5,7 +5,7 @@ from tqdm import tqdm
 from .. import manifest, paths
 from ..classes import CLASS_INDEX
 from . import commons, inaturalist, wellcome
-from .base import download
+from .base import SKIPS, download
 
 SOURCES = {"commons": commons, "inat": inaturalist, "wellcome": wellcome}
 
@@ -39,11 +39,13 @@ def run(source: str | None = None, cls: str | None = None, limit: int = 40) -> N
                         if got >= cap:
                             break
                 except Exception as e:  # one bad query must not end a long run; what was saved stays saved
-                    print(f"{c:9} {src:9} {q:32} +{got}  FAILED: {type(e).__name__}: {str(e)[:80]}")
+                    print(f"{c:9} {src:9} {q:32} +{got}  FAILED: {type(e).__name__}: {str(e)[:80]}", flush=True)
                     bar.close()
                     continue
                 bar.close()
-                print(f"{c:9} {src:9} {q:32} +{got}")
+                skipped = ", ".join(f"{k} {v}" for k, v in SKIPS.most_common() if k != "known")
+                print(f"{c:9} {src:9} {q:32} +{got}   [skipped: {skipped or 'none'}]", flush=True)
+                SKIPS.clear()
 
 
 def ingest_inbox() -> int:

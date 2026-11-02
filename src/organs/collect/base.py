@@ -2,6 +2,7 @@
 import hashlib
 import io
 import re
+from collections import Counter
 from dataclasses import dataclass
 
 from PIL import Image
@@ -51,20 +52,30 @@ def norm_license(raw: str | None) -> str | None:
     return "by" + (m.group(1) or "") + (m.group(2) or "")
 
 
+SKIPS: Counter = Counter()  # why candidates were not saved; printed per query so silent failures show up
+
+
 def download(c: Candidate, known: dict[str, dict], seen_hashes: set[str]) -> dict | None:
-    """Download one candidate. Returns a manifest record, or None if skipped."""
-    if c.license not in ALLOWED or c.id in known:
+    """Download one candidate. Returns a manifest record, or None if skipped (reason counted in SKIPS)."""
+    if c.license not in ALLOWED:
+        SKIPS["license"] += 1
+        return None
+    if c.id in known:
+        SKIPS["known"] += 1
         return None
     try:
         r = http.get(c.url)
         img = Image.open(io.BytesIO(r.content))
         img.load()
-    except Exception:
+    except Exception as e:
+        SKIPS[f"error:{type(e).__name__}"] += 1
         return None
     if min(img.size) < MIN_SIDE:
+        SKIPS["too_small"] += 1
         return None
     digest = hashlib.sha1(r.content).hexdigest()
     if digest in seen_hashes:
+        SKIPS["duplicate"] += 1
         return None
     seen_hashes.add(digest)
 
