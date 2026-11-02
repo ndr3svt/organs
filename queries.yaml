@@ -61,7 +61,26 @@ plant:
     - romanesco
     - fern frond
 fungal:
-  inat: [fungi]
+  inat:
+    - fungi
+    - "taxon:Agaricales"        # gilled mushrooms
+    - "taxon:Boletales"         # boletes
+    - "taxon:Polyporales"       # shelf fungi
+    - "taxon:Pezizales"         # cups, morels, truffles
+    - "taxon:Russulales"
+    - "taxon:Cantharellales"    # chanterelles
+    - "taxon:Phallales"         # stinkhorns
+    - "taxon:Lycoperdaceae"     # puffballs
+    - "taxon:Geastrales"        # earthstars
+    - "taxon:Gomphales"         # coral fungi
+    - "taxon:Xylariales"
+    - "taxon:Helotiales"
+    - "taxon:Hymenochaetales"
+    - "taxon:Auriculariales"    # jelly ears
+    - "taxon:Tremellales"       # jelly fungi
+    - "taxon:Hypocreales"       # cordyceps
+    - "taxon:Lecanorales"       # lichens
+    - "taxon:Peltigerales"      # lichens
   commons:
     - mushroom fruiting body
     - bracket fungus
@@ -75,6 +94,23 @@ fungal:
     - lichen
     - slime mold
     - mushroom cap
+    - stinkhorn
+    - earthstar
+    - bolete
+    - turkey tail fungus
+    - jelly fungus
+    - cup fungus
+    - honey fungus
+    - shaggy mane
+    - hen of the woods
+    - lion's mane mushroom
+    - truffle
+    - cordyceps
+    - bird's nest fungus
+    - toadstool
+    - polypore
+    - amanita
+    - mushroom cluster
 metaphor:
   commons:
     - bellows

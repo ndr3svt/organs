@@ -1,10 +1,13 @@
 """iNaturalist research-grade observations with open photo licenses.
 
 Plant queries use the 'Flowers and Fruits' annotation so the organ is the subject.
-Fungal queries use iconic taxon Fungi (observations are mostly fruiting bodies).
-`query` is the iNaturalist filter label: flowers | fruits | fungi.
+Fungal queries use iconic taxon Fungi (observations are mostly fruiting bodies). Top-voted results
+skew to a few photogenic species, so `taxon:<Name>` restricts a query to one taxon (order, family, ...)
+and spreads the collection across forms: gills, pores, brackets, cups, puffballs, stinkhorns, lichens.
+`query` is the filter label: flowers | fruits | fungi | taxon:<Name>.
 """
 from collections.abc import Iterator
+from functools import cache
 
 from .. import http
 from .base import Candidate, norm_license
@@ -17,10 +20,26 @@ FILTERS = {
 }
 
 
+@cache
+def taxon_id(name: str) -> int:
+    """Exact-name lookup so 'Agaricales' cannot silently resolve to a different taxon."""
+    results = http.get("https://api.inaturalist.org/v1/taxa", params={"q": name, "per_page": 5}).json()["results"]
+    hit = next((t for t in results if t["name"].lower() == name.lower()), None)
+    if hit is None:
+        raise ValueError(f"iNaturalist taxon not found: {name}")
+    return hit["id"]
+
+
+def filters(query: str) -> dict:
+    if query.startswith("taxon:"):
+        return {"taxon_id": taxon_id(query.removeprefix("taxon:").strip())}
+    return FILTERS[query]
+
+
 def search(query: str, cls: str, limit: int) -> Iterator[Candidate]:
     params = {
         "photos": "true", "quality_grade": "research", "license": "cc0,cc-by,cc-by-sa,cc-by-nc,cc-by-nc-sa",
-        "per_page": 100, "order_by": "votes", "page": 1, **FILTERS[query],
+        "per_page": 100, "order_by": "votes", "page": 1, **filters(query),
     }
     yielded = 0
     while yielded < limit:
