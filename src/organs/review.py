@@ -16,7 +16,7 @@ from PIL import Image
 from . import cutout, manifest, paths
 from .classes import CLASSES, SWATCH
 
-_lock = threading.Lock()  # one recut at a time: the segmentation sessions are shared
+_lock = threading.Lock()
 
 PAGE = """<!doctype html><meta charset=utf-8><title>organs review</title>
 <style>
@@ -164,18 +164,16 @@ def make_handler(status: str):
             if self.path == "/api/decide":
                 if body["status"] not in {"keep", "reject"}:
                     return self._send(b"bad status", "text/plain", 400)
-                with _lock:
-                    manifest.update(body["id"], status=body["status"])
+                manifest.update(body["id"], status=body["status"])
                 return self._send(b"ok", "text/plain")
             if self.path == "/api/recut":
-                with _lock:
-                    records = manifest.load()
-                    rec = records.get(body["id"])
-                    if not rec:
-                        return self._send(b"not found", "text/plain", 404)
+                rec = manifest.load().get(body["id"])
+                if not rec:
+                    return self._send(b"not found", "text/plain", 404)
+                with _lock:  # the segmentation sessions are shared between requests
                     cutout.recut(rec, [tuple(p) for p in body["points"]])
-                    manifest.save(records)
                 out = {k: rec[k] for k in ("status", "reason", "points")}
+                manifest.update(body["id"], **out, fg_frac=rec["fg_frac"])
                 return self._send(json.dumps(out).encode(), "application/json")
             self._send(b"not found", "text/plain", 404)
 

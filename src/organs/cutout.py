@@ -133,15 +133,14 @@ def recut(rec: dict, points: list[tuple[float, float, int]], model: str = "isnet
 
 def process(model: str = "isnet-general-use", limit: int | None = None, redo: bool = False) -> None:
     paths.ensure_dirs()
-    records = manifest.load()
-    todo = [r for r in records.values() if r["status"] == "raw" or (redo and r["status"] in {"cut", "auto_reject"})]
-    todo = todo[:limit]
-    for i, r in enumerate(tqdm(todo, desc="cutout"), 1):
+    todo = [r for r in manifest.load().values()
+            if r["status"] == "raw" or (redo and r["status"] in {"cut", "auto_reject"})]
+    for r in tqdm(todo[:limit], desc="cutout"):
+        start = r["status"]
         try:  # saved clicks are re-applied, so --redo never undoes a manual cut
             recut(r, [tuple(p) for p in r.get("points") or []], model)
+            fields = {k: r[k] for k in ("status", "reason", "fg_frac", "points")}
         except Exception as e:  # corrupt file, decode error, etc.
-            r.update(status="auto_reject", reason=f"error:{type(e).__name__}")
-            continue
-        if i % 20 == 0:
-            manifest.save(records)
-    manifest.save(records)
+            fields = {"status": "auto_reject", "reason": f"error:{type(e).__name__}"}
+        # write only this record, and only if nobody decided on it while we were cutting
+        manifest.update(r["id"], expect=start, **fields)

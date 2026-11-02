@@ -2,7 +2,7 @@
 
 Draw a silhouette in a class color, get a specimen image back. A small GAN for mask-to-image synthesis (SPADE / OASIS family), not diffusion. A follow-up to the earlier pix2pix experiment at <https://ndr3svt.art/projects/organs/>.
 
-Organs here means organs in a wide sense: animal organs, plant organs (leaf, fruit, flower, root), fungal bodies, and metaphorical organs (bellows, pumps, circuit boards). The model sees a class-index map with four classes plus background, and has to commit to a single plausible specimen instead of the pixel average that pix2pix produces.
+Organs here means organs in a wide sense: animal organs, plant organs (leaf, fruit, flower, root), fungal bodies, metaphorical organs (bellows, pumps, circuit boards), and science fiction ones (biomechanical sculpture, fractals, alien and robot forms). The model sees a class-index map with five classes plus background, and has to commit to a single plausible specimen instead of the pixel average that pix2pix produces.
 
 ## Status
 
@@ -18,7 +18,7 @@ Openverse is not used: its API did not respond when this was built.
 
 ## Data policy
 
-Images are never committed. `data/` is gitignored and holds the private dataset with a manifest recording the source URL, license, author, and class of every file. Only CC0, public domain, and CC BY family licenses without NoDerivatives are accepted. Trained weights are not published until the manifest licenses are audited, because share-alike and non-commercial terms can carry over to them.
+Images are never committed. `data/` is gitignored and holds the private dataset with a manifest recording the source URL, license, author, and class of every file. Only CC0, public domain, and CC BY family licenses without NoDerivatives are accepted. The license on a photo of an artwork (for example the HR Giger Museum photos used for `scifi`) covers the photograph, not the artwork itself, which is another reason the dataset and weights stay private. Trained weights are not published until the manifest licenses are audited, because share-alike and non-commercial terms can carry over to them.
 
 ## Classes
 
@@ -29,6 +29,9 @@ Images are never committed. `data/` is gitignored and holds the private dataset 
 | 2 | plant | green |
 | 3 | fungal | amber |
 | 4 | metaphor | blue |
+| 5 | scifi | purple |
+
+`metaphor` is real machinery read as an organ; `scifi` is invented or futuristic. Classes are only ever appended, so existing mask indices stay valid.
 
 ## Setup
 
@@ -49,6 +52,8 @@ organs stats                       # counts per class and status
 ```
 
 When the automatic cutout picks the wrong thing (an organ in a jar, a bowl, a hand), click the organ in the original panel and only that is cut out, using SAM. Shift-click marks a spot that is not the organ, and C resets to the automatic cutout. The first click loads the model (about 10 s); later clicks take 2 to 3 s. Clicks are saved in the manifest and re-applied by `organs cutout --redo`.
+
+The manifest is safe to write from several processes at once (file lock, one record per write), so you can review while `collect` and `cutout` run.
 
 Each image moves through the manifest statuses `raw`, then `cut` or `auto_reject`, then `keep` or `reject`. Only `keep` is used for training.
 

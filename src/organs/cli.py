@@ -2,6 +2,7 @@ import argparse
 from collections import Counter
 
 from . import manifest
+from .classes import CLASSES
 
 
 def stats() -> None:
@@ -20,7 +21,7 @@ def main() -> None:
 
     c = sub.add_parser("collect", help="download images from the open sources in queries.yaml")
     c.add_argument("--source", choices=["commons", "inat", "wellcome"])
-    c.add_argument("--cls", choices=["animal", "plant", "fungal", "metaphor"])
+    c.add_argument("--cls", choices=CLASSES)
     c.add_argument("--limit", type=int, default=40, help="new images per query")
 
     sub.add_parser("ingest-inbox", help="register your own images from data/inbox/<class>/")

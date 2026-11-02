@@ -13,6 +13,19 @@ animal:
     - fish gills
     - spleen specimen
     - pancreas specimen
+    - pig heart
+    - cow heart
+    - sheep lung
+    - chicken heart
+    - chicken liver
+    - gizzard
+    - tongue anatomy
+    - bladder specimen
+    - intestine specimen
+    - squid anatomy
+    - anatomical specimen jar
+    - preserved specimen
+    - dissection specimen
   wellcome:
     - heart specimen
     - kidney specimen
@@ -20,6 +33,8 @@ animal:
     - lung specimen
     - brain specimen
     - eye specimen
+    - specimen
+    - dissection
 plant:
   inat: [flowers, fruits]
   commons:
@@ -29,12 +44,37 @@ plant:
     - seed pod
     - fruit cut open
     - flower close up
+    - pumpkin cut
+    - cabbage cross section
+    - pine cone
+    - acorn
+    - walnut
+    - seed
+    - cactus
+    - succulent rosette
+    - orchid flower
+    - onion bulb
+    - ginger root
+    - pomegranate
+    - lotus seed pod
+    - artichoke
+    - romanesco
+    - fern frond
 fungal:
   inat: [fungi]
   commons:
     - mushroom fruiting body
     - bracket fungus
     - mushroom gills
+    - puffball
+    - chanterelle
+    - oyster mushroom
+    - coral fungus
+    - morel
+    - fly agaric
+    - lichen
+    - slime mold
+    - mushroom cap
 metaphor:
   commons:
     - bellows
@@ -44,3 +84,25 @@ metaphor:
     - turbine rotor
     - radiator
     - valve mechanism
+    - gear mechanism
+    - piston engine cutaway
+    - heat exchanger
+    - pipe organ pipes
+    - water pump
+    - compressor
+    - transformer
+    - clock mechanism
+    - spiral staircase
+# fictional or futuristic organ-like forms. metaphor = real machines read as organs; scifi = invented.
+scifi:
+  commons:
+    - HR Giger museum
+    - biomechanical sculpture
+    - mandelbulb
+    - mandelbulb fractal
+    - fractal art 3D
+    - alien head sculpture
+    - spaceship model
+    - futuristic sculpture
+    - robot head
+    - science fiction prop
