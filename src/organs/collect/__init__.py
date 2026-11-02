@@ -23,18 +23,20 @@ def run(source: str | None = None, cls: str | None = None, limit: int = 40) -> N
         for src, queries in by_source.items():
             if source and src != source:
                 continue
-            for q in queries:
+            for item in queries:
+                # a query is a string, or {q: ..., limit: N} to give one rich source its own cap
+                q, cap = (item["q"], item.get("limit", limit)) if isinstance(item, dict) else (item, limit)
                 got = 0
-                bar = tqdm(desc=f"{c}/{src}/{q}", total=limit, leave=False)
+                bar = tqdm(desc=f"{c}/{src}/{q}", total=cap, leave=False)
                 try:
-                    for cand in SOURCES[src].search(q, c, limit * 4):
+                    for cand in SOURCES[src].search(q, c, cap * 4):
                         rec = download(cand, records, seen)
                         if rec:
                             records[rec["id"]] = rec  # local dedupe cache
                             manifest.add({rec["id"]: rec})  # locked, touches only this record
                             got += 1
                             bar.update(1)
-                        if got >= limit:
+                        if got >= cap:
                             break
                 except Exception as e:  # one bad query must not end a long run; what was saved stays saved
                     print(f"{c:9} {src:9} {q:32} +{got}  FAILED: {type(e).__name__}: {str(e)[:80]}")

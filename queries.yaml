@@ -26,6 +26,48 @@ animal:
     - anatomical specimen jar
     - preserved specimen
     - dissection specimen
+    # animal organs: Commons categories and a veterinary museum's consistently shot specimens
+    - q: 'deepcategory:"Animal hearts"'
+      limit: 200
+    - q: '"FMVZ USP" heart'
+      limit: 80
+    - q: '"FMVZ USP" kidney'
+      limit: 40
+    - q: '"FMVZ USP" liver'
+      limit: 40
+    - q: '"FMVZ USP" stomach'
+      limit: 40
+    - q: '"FMVZ USP" brain'
+      limit: 40
+    - q: '"FMVZ USP" spleen'
+      limit: 40
+    - q: '"FMVZ USP" lung'
+      limit: 40
+    - q: '"FMVZ USP" intestine'
+      limit: 40
+    - q: '"FMVZ USP"'
+      limit: 200
+    # human organs: gross pathology specimen photographs (diseased organs, shot as specimens), by organ
+    - q: 'deepcategory:"Gross pathology" heart'
+      limit: 50
+    - q: 'deepcategory:"Gross pathology" kidney'
+      limit: 50
+    - q: 'deepcategory:"Gross pathology" liver'
+      limit: 50
+    - q: 'deepcategory:"Gross pathology" lung'
+      limit: 50
+    - q: 'deepcategory:"Gross pathology" brain'
+      limit: 50
+    - q: 'deepcategory:"Gross pathology" stomach'
+      limit: 50
+    - q: 'deepcategory:"Gross pathology" intestine'
+      limit: 50
+    - q: 'deepcategory:"Gross pathology" spleen'
+      limit: 40
+    - q: 'deepcategory:"Gross pathology" pancreas'
+      limit: 40
+    - q: '"gross specimen"'
+      limit: 40
   wellcome:
     - heart specimen
     - kidney specimen
