@@ -20,19 +20,24 @@ def session() -> requests.Session:
     return _session
 
 
-def get(url: str, *, delay: float = 0.5, retries: int = 3, **kw) -> requests.Response:
-    """Polite GET: minimum gap between calls, retry with backoff on 429/5xx."""
+def get(url: str, *, delay: float = 0.5, retries: int = 5, **kw) -> requests.Response:
+    """Polite GET: minimum gap between calls; retry with backoff on 429/5xx and on dropped connections."""
     global _last
     for attempt in range(retries):
         wait = delay - (time.monotonic() - _last)
         if wait > 0:
             time.sleep(wait)
         _last = time.monotonic()
-        r = session().get(url, timeout=30, **kw)
-        if r.status_code in (429, 500, 502, 503, 504):
+        try:
+            r = session().get(url, timeout=30, **kw)
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == retries - 1:
+                raise
+            time.sleep(2 ** (attempt + 1))
+            continue
+        if r.status_code in (429, 500, 502, 503, 504) and attempt < retries - 1:
             time.sleep(2 ** (attempt + 1))
             continue
         r.raise_for_status()
         return r
-    r.raise_for_status()
-    return r
+    raise RuntimeError("unreachable")

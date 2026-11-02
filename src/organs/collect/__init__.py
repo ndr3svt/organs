@@ -26,15 +26,20 @@ def run(source: str | None = None, cls: str | None = None, limit: int = 40) -> N
             for q in queries:
                 got = 0
                 bar = tqdm(desc=f"{c}/{src}/{q}", total=limit, leave=False)
-                for cand in SOURCES[src].search(q, c, limit * 4):
-                    rec = download(cand, records, seen)
-                    if rec:
-                        records[rec["id"]] = rec  # local dedupe cache
-                        manifest.add({rec["id"]: rec})  # locked, touches only this record
-                        got += 1
-                        bar.update(1)
-                    if got >= limit:
-                        break
+                try:
+                    for cand in SOURCES[src].search(q, c, limit * 4):
+                        rec = download(cand, records, seen)
+                        if rec:
+                            records[rec["id"]] = rec  # local dedupe cache
+                            manifest.add({rec["id"]: rec})  # locked, touches only this record
+                            got += 1
+                            bar.update(1)
+                        if got >= limit:
+                            break
+                except Exception as e:  # one bad query must not end a long run; what was saved stays saved
+                    print(f"{c:9} {src:9} {q:32} +{got}  FAILED: {type(e).__name__}: {str(e)[:80]}")
+                    bar.close()
+                    continue
                 bar.close()
                 print(f"{c:9} {src:9} {q:32} +{got}")
 
