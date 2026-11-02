@@ -48,6 +48,8 @@ organs review                      # keep / reject in the browser (K / R); --sta
 organs stats                       # counts per class and status
 ```
 
+When the automatic cutout picks the wrong thing (an organ in a jar, a bowl, a hand), click the organ in the original panel and only that is cut out, using SAM. Shift-click marks a spot that is not the organ, and C resets to the automatic cutout. The first click loads the model (about 10 s); later clicks take 2 to 3 s. Clicks are saved in the manifest and re-applied by `organs cutout --redo`.
+
 Each image moves through the manifest statuses `raw`, then `cut` or `auto_reject`, then `keep` or `reject`. Only `keep` is used for training.
 
 Every cutout is placed on one flat ground color, so the model learns the organ and not the photographed background.

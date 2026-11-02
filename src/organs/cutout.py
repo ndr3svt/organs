@@ -18,6 +18,7 @@ GROUND = (236, 236, 232)
 SIZE = 512
 MARGIN = 0.08  # fraction of the subject box kept as space around it
 MAX_IN = 1024  # downscale input before segmentation, for speed
+MAX_OUT = 2048  # cap on the working image the cutout pixels are taken from
 
 
 def _largest_filled(fg: np.ndarray) -> tuple[np.ndarray, float]:
@@ -45,12 +46,45 @@ def _checks(fg: np.ndarray, share: float) -> str | None:
     return None
 
 
-def cut(img: Image.Image, session, cls: str) -> tuple[Image.Image, Image.Image, str | None]:
+_sessions: dict[str, object] = {}
+
+
+def get_session(name: str):
+    """Load a rembg model once per process. 'sam' is the click-prompted segmenter."""
+    if name not in _sessions:
+        from rembg import new_session
+
+        _sessions[name] = new_session(name)
+    return _sessions[name]
+
+
+def _prompted_alpha(img: Image.Image, points: list[tuple[float, float, int]]) -> np.ndarray:
+    """SAM mask from clicks. points are (x, y, label) with x, y in 0..1 of the image; label 1 = organ, 0 = not organ."""
+    prompt = [
+        {"type": "point", "label": int(lab), "data": [int(x * img.width), int(y * img.height)]}
+        for x, y, lab in points
+    ]
+    mask = np.asarray(get_session("sam").predict(img, sam_prompt=prompt)[0], dtype=np.float32) / 255.0
+    return ndimage.gaussian_filter(mask, 1.0)  # SAM masks are binary and low-res; soften the edge
+
+
+def cut(
+    img: Image.Image, session, cls: str, points: list[tuple[float, float, int]] | None = None
+) -> tuple[Image.Image, Image.Image, str | None]:
+    """Cut the subject out. With `points` the subject is chosen by clicks (SAM); otherwise it is automatic."""
     from rembg import remove
 
     img = img.convert("RGB")
-    img.thumbnail((MAX_IN, MAX_IN), Image.LANCZOS)
-    alpha = np.asarray(remove(img, session=session, only_mask=True), dtype=np.float32) / 255.0
+    img.thumbnail((MAX_OUT, MAX_OUT), Image.LANCZOS)  # pixels come from here, so small subjects stay sharp
+    seg = img.copy()
+    seg.thumbnail((MAX_IN, MAX_IN), Image.LANCZOS)  # the segmenter only needs the small version
+    if points:
+        alpha = _prompted_alpha(seg, points)
+    else:
+        alpha = np.asarray(remove(seg, session=session, only_mask=True), dtype=np.float32) / 255.0
+    if seg.size != img.size:
+        alpha = np.asarray(Image.fromarray((alpha * 255).astype(np.uint8)).resize(img.size, Image.BILINEAR),
+                           dtype=np.float32) / 255.0
 
     fg, share = _largest_filled(alpha > 0.5)
     reason = _checks(fg, share)
@@ -78,24 +112,36 @@ def cut(img: Image.Image, session, cls: str) -> tuple[Image.Image, Image.Image, 
     return out, Image.fromarray(mask, "L"), reason
 
 
-def process(model: str = "isnet-general-use", limit: int | None = None, redo: bool = False) -> None:
-    from rembg import new_session
+def _write(rec: dict, out: Image.Image, mask: Image.Image, reason: str | None) -> None:
+    out.save(paths.CUTOUTS / f"{rec['id']}.jpg", quality=95)
+    mask.save(paths.MASKS / f"{rec['id']}.png")
+    rec.update(status="auto_reject" if reason else "cut", reason=reason or "",
+               fg_frac=round(float((np.asarray(mask) > 0).mean()), 3))
 
+
+def recut(rec: dict, points: list[tuple[float, float, int]], model: str = "isnet-general-use") -> None:
+    """Redo one image from clicks (or automatically when `points` is empty). Updates `rec` in place.
+
+    A manual cut is the user's call, so it always lands as `cut`; the automatic checks are only advice.
+    """
+    out, mask, reason = cut(Image.open(paths.DATA / rec["path"]), get_session(model), rec["class"], points or None)
+    _write(rec, out, mask, reason if not points else None)
+    rec["points"] = [list(p) for p in points]
+    if points:
+        rec["reason"] = "manual" + (f" (checks said {reason})" if reason else "")
+
+
+def process(model: str = "isnet-general-use", limit: int | None = None, redo: bool = False) -> None:
     paths.ensure_dirs()
     records = manifest.load()
     todo = [r for r in records.values() if r["status"] == "raw" or (redo and r["status"] in {"cut", "auto_reject"})]
     todo = todo[:limit]
-    session = new_session(model)
     for i, r in enumerate(tqdm(todo, desc="cutout"), 1):
-        try:
-            out, mask, reason = cut(Image.open(paths.DATA / r["path"]), session, r["class"])
+        try:  # saved clicks are re-applied, so --redo never undoes a manual cut
+            recut(r, [tuple(p) for p in r.get("points") or []], model)
         except Exception as e:  # corrupt file, decode error, etc.
             r.update(status="auto_reject", reason=f"error:{type(e).__name__}")
             continue
-        out.save(paths.CUTOUTS / f"{r['id']}.jpg", quality=95)
-        mask.save(paths.MASKS / f"{r['id']}.png")
-        r.update(status="auto_reject" if reason else "cut", reason=reason or "",
-                 fg_frac=round(float((np.asarray(mask) > 0).mean()), 3))
         if i % 20 == 0:
             manifest.save(records)
     manifest.save(records)
