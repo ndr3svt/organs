@@ -11,6 +11,7 @@ Organs here means organs in a wide sense: animal organs, plant organs (leaf, fru
 | Collect open-license images | working (Commons, iNaturalist, Wellcome) |
 | Cutout onto a neutral ground, class-index masks | working |
 | Keep / reject review | working |
+| Showcase page of the dataset (`data_for_the_arts_showcase/`) | built, previewed locally, not deployed |
 | Local proof-of-concept training (128px, Mac) | not started |
 | Cloud training (256px) and the drawing tool | not started |
 

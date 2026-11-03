@@ -35,6 +35,13 @@ def main() -> None:
     v.add_argument("--status", default="cut", choices=["cut", "auto_reject", "keep", "reject"])
     v.add_argument("--port", type=int, default=8765)
 
+    s = sub.add_parser("showcase", help="build the static showcase from the manifest, optionally preview it")
+    s.add_argument("--per-class", type=int, default=80, help="specimens shown per realm")
+    s.add_argument("--seed", type=int, default=7)
+    s.add_argument("--skip-build", action="store_true", help="only serve what was built before")
+    s.add_argument("--serve", action="store_true", help="preview on 127.0.0.1 after building")
+    s.add_argument("--port", type=int, default=4180)
+
     sub.add_parser("stats", help="per class and status counts")
 
     a = p.parse_args()
@@ -50,6 +57,12 @@ def main() -> None:
     elif a.cmd == "review":
         from . import review
         review.serve(a.status, a.port)
+    elif a.cmd == "showcase":
+        from . import showcase
+        if not a.skip_build:
+            showcase.build(a.per_class, a.seed)
+        if a.serve or a.skip_build:
+            showcase.serve(a.port)
     elif a.cmd == "stats":
         stats()
 

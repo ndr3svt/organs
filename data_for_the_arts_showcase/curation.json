@@ -1,0 +1,46 @@
+{
+  "exclude_sources": ["wellcome"],
+  "exclude": [
+    "commons_18627453", "commons_85559783", "wellcome_hpftwx9f", "wellcome_w38bnz7s", "commons_153882178",
+    "commons_27711221", "wellcome_ezec2wda", "wellcome_c5eh6kxg", "commons_26433337", "commons_71743588",
+    "wellcome_x42jw23v", "commons_47231612",
+
+    "commons_134701152", "commons_91878199", "inat_108097867", "commons_164277989", "commons_186505372",
+    "commons_75326414", "commons_7815873", "commons_137001725", "commons_45705075", "commons_21808057",
+    "commons_62864581", "commons_36654889", "commons_83713337",
+
+    "inat_3089906", "commons_162522913", "commons_115396684", "inat_333530162", "commons_112836397",
+    "inat_354448532", "inat_64745937",
+
+    "commons_32853632", "commons_81311323", "commons_25344546", "commons_3698506", "commons_190239996",
+    "commons_187708445", "commons_152242", "commons_167736558", "commons_87050093", "commons_19119649",
+
+    "commons_8778781", "commons_63521163", "commons_31923939", "commons_95136428", "commons_115324720",
+    "commons_36744212", "commons_77056080", "commons_36459918", "commons_134534947", "commons_162226477",
+    "commons_8779317", "commons_38107776", "commons_38108372", "commons_38107761",
+
+    "commons_192821214", "commons_11517146", "commons_43242175", "commons_95609547", "commons_147041673",
+    "commons_41530813", "commons_8457907", "commons_24372766", "commons_168037535", "commons_46063803",
+    "commons_46218640", "commons_71743587", "commons_78384793", "commons_60404277", "commons_18627691",
+    "commons_139722818", "commons_80879254", "commons_80879252", "commons_131121696",
+
+    "commons_60413370", "commons_104123723", "commons_146282920", "commons_161888957", "commons_10992818",
+    "commons_112730143", "inat_52784430", "commons_135763237", "inat_47249680", "commons_196685251",
+    "commons_116136768",
+
+    "inat_667881956", "commons_74169203",
+
+    "commons_14546160", "commons_2968259", "commons_81441097", "commons_35516664", "commons_63601103",
+    "commons_177185601",
+
+    "commons_38107775", "commons_36744241", "commons_31461033", "commons_63521173", "commons_76043380",
+    "commons_38203781",
+
+    "commons_75557203", "commons_107585341", "commons_24371614", "commons_34698740", "commons_76366291",
+    "commons_110492111", "commons_110492087", "commons_30878755", "commons_127083167", "commons_162930192",
+    "commons_80879231", "commons_80879203", "commons_84615239",
+
+    "commons_36028797", "commons_179683852"
+  ],
+  "include": []
+}

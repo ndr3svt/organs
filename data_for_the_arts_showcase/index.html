@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f4f2ec">
+  <title>Organs, the data — Andres Villa Torres</title>
+  <meta name="description" content="How a dataset of organs of all kinds is collected, cut out and annotated before a model learns from it. A small data visualisation for education.">
+  <link rel="canonical" href="https://ndr3svt.art/organs/">
+  <meta property="og:title" content="Organs, the data — Andres Villa Torres">
+  <meta property="og:description" content="How a dataset of organs of all kinds is collected, cut out and annotated before a model learns from it.">
+  <meta property="og:url" content="https://ndr3svt.art/organs/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.png?v=2" type="image/png">
+  <link rel="stylesheet" href="css/showcase.css?v=f241b670">
+  <script type="module" src="js/main.js?v=f241b670"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <main id="content">
+    <header class="page-head wrap">
+      <p class="kicker">18 / data</p>
+      <h1 class="page-title">Organs</h1>
+      <p class="subhead">How a dataset of living forms is made before a model learns from it</p>
+      <p class="meta-line" id="meta" aria-live="polite"></p>
+    </header>
+
+    <noscript><p class="wrap note">This page draws its figures with JavaScript. The credits and the method are written out below.</p></noscript>
+
+    <section class="band wrap" id="realms" aria-labelledby="h-realms">
+      <h2 class="band-label"><span class="num">01</span><span id="h-realms">Realms</span></h2>
+      <div class="band-body">
+        <p class="note">Organs are collected in five realms, named for what they are made of or what they stand for. Choose a realm to limit the specimen slider to it, or pick any tile.</p>
+        <ol class="realms" id="realm-list"></ol>
+      </div>
+    </section>
+
+    <section class="band wrap" id="specimen" aria-labelledby="h-specimen">
+      <h2 class="band-label"><span class="num">02</span><span id="h-specimen">Specimen</span></h2>
+      <div class="band-body specimen">
+        <figure class="stage">
+          <div class="plate" id="plate" style="--p: 1">
+            <img id="img-source" alt="" aria-hidden="true" decoding="async">
+            <img id="img-cutout" alt="" decoding="async">
+            <img id="img-mask" alt="" aria-hidden="true" decoding="async">
+          </div>
+          <figcaption class="caption" id="caption"></figcaption>
+        </figure>
+
+        <div class="controls">
+          <p class="readout" aria-hidden="true"><output id="n">0001</output><span class="of" id="of"></span></p>
+
+          <label class="slider-label" for="specimen-range">Specimen</label>
+          <input type="range" id="specimen-range" min="1" max="1" value="1" step="1" aria-describedby="specimen-hint">
+          <div class="ticks" id="ticks" aria-hidden="true"></div>
+          <p class="hint" id="specimen-hint">Left and right arrow keys move one specimen. Page up and down move ten.</p>
+
+          <label class="slider-label" for="process-range">Process</label>
+          <input type="range" id="process-range" min="0" max="2" value="1" step="0.05" aria-describedby="step-note">
+          <div class="steps" id="steps" aria-hidden="true">
+            <span data-step="0">source</span><span data-step="1">cutout</span><span data-step="2">mask</span>
+          </div>
+          <p class="step-note" id="step-note" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band wrap" id="numbers" aria-labelledby="h-numbers">
+      <h2 class="band-label"><span class="num">03</span><span id="h-numbers">Numbers</span></h2>
+      <div class="band-body charts" id="charts"></div>
+    </section>
+
+    <section class="band wrap" id="process" aria-labelledby="h-process">
+      <h2 class="band-label"><span class="num">04</span><span id="h-process">Process</span></h2>
+      <div class="band-body">
+        <ol class="method">
+          <li>
+            <h3>Collect</h3>
+            <p>Images come from open sources: Wikimedia Commons, iNaturalist and the Wellcome Collection. Each one keeps its author, license and link.</p>
+          </li>
+          <li>
+            <h3>Cut out</h3>
+            <p>A segmentation model removes the background. One click can pick an organ out of a jar or a dish. The organ is placed on a single neutral ground.</p>
+          </li>
+          <li>
+            <h3>Mask</h3>
+            <p>The outline becomes a map with one class: animal, plant, fungal, metaphor or scifi. This is the only thing the model will be given.</p>
+          </li>
+          <li>
+            <h3>Review</h3>
+            <p>Automatic checks drop frames where the subject is tiny, cropped or split in pieces. A person keeps or rejects what is left.</p>
+          </li>
+          <li>
+            <h3>Learn</h3>
+            <p>Planned, not done: a small mask-to-image network that answers a painted region with a specimen.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band wrap" id="credits" aria-labelledby="h-credits">
+      <h2 class="band-label"><span class="num">05</span><span id="h-credits">Credits</span></h2>
+      <div class="band-body">
+        <p class="note">Every image belongs to its author and is shown under the license named beside it. The cutouts are adaptations: the background was removed, and the image was cropped and resized. Images under non-commercial licenses are in the dataset but are not shown here. The exact license version is on each source page.</p>
+        <details class="credits" id="credits-list">
+          <summary><span id="credits-count">All credits</span></summary>
+          <ol id="credits-items"></ol>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-grid">
+    <div><p class="footer-label">Based</p><p>Zurich, CH</p></div>
+    <div><p class="footer-label">Social</p><a href="https://www.instagram.com/ndr3svt/" class="social-link" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://medium.com/@andresvillatorres" class="social-link" target="_blank" rel="noopener noreferrer">Medium</a><a href="https://bern.academia.edu/Andr%C3%A9sVillaTorres/Papers" class="social-link" target="_blank" rel="noopener noreferrer">Academia.edu</a><a href="https://www.researchgate.net/profile/Andres-Villa-Torres" class="social-link" target="_blank" rel="noopener noreferrer">ResearchGate</a><a href="https://github.com/ndr3svt" class="social-link" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+    <div><p class="footer-label">Contact</p><a href="mailto:hey@ndr3svt.art">hey@ndr3svt.art</a></div>
+    <div class="footer-end"><p class="footer-label">Copyright</p><p>Andres Villa Torres</p><p>2026</p></div>
+  </div></footer>
+
+  <nav class="dock" aria-label="Primary"><a class="pill pill-home" href="/" aria-label="CV"><span class="avatar"><img src="/avatar.gif" alt="" width="80" height="80"></span><span class="dock-label">CV</span></a><a class="pill" href="/about/" aria-label="About"><span class="dock-label">About</span><span class="dock-short">Ab.</span></a><a class="pill" href="/service/" aria-label="Service"><span class="dock-label">Service</span><span class="dock-short">Serv.</span></a><a class="pill" href="/contact/" aria-label="Contact"><span class="dock-label">Contact</span><svg class="dock-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3.5h2.1l1 2.8-1.7 1a12.2 12.2 0 0 0 6.3 6.3l1-1.7 2.8 1V15a2 2 0 0 1-2.2 2A15.2 15.2 0 0 1 5 6.7 2 2 0 0 1 7 4.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></a><a class="pill" href="/blog/" aria-label="Blog"><span class="dock-label">Blog</span><svg class="dock-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5h9.2L19 8.2V19a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 19V6A1.5 1.5 0 0 1 6.5 4.5H6Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 12h6M9 15.5h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a></nav>
+</body>
+</html>

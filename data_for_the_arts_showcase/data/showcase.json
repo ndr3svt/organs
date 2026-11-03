@@ -1,0 +1,4127 @@
+{
+ "generated": "2026-11-03",
+ "v": "2db8f068",
+ "ground": "#ecece8",
+ "realms": [
+  {
+   "id": "animal",
+   "index": 1,
+   "color": "#d64550",
+   "shown": 80
+  },
+  {
+   "id": "plant",
+   "index": 2,
+   "color": "#43a047",
+   "shown": 80
+  },
+  {
+   "id": "fungal",
+   "index": 3,
+   "color": "#e6aa28",
+   "shown": 80
+  },
+  {
+   "id": "metaphor",
+   "index": 4,
+   "color": "#4287f5",
+   "shown": 80
+  },
+  {
+   "id": "scifi",
+   "index": 5,
+   "color": "#9c5ad6",
+   "shown": 80
+  }
+ ],
+ "aggregates": {
+  "total": 5808,
+  "funnel": {
+   "animal": {
+    "collected": 1660,
+    "passed": 1067,
+    "kept": 2
+   },
+   "plant": {
+    "collected": 744,
+    "passed": 443,
+    "kept": 0
+   },
+   "fungal": {
+    "collected": 2843,
+    "passed": 1892,
+    "kept": 0
+   },
+   "metaphor": {
+    "collected": 335,
+    "passed": 228,
+    "kept": 0
+   },
+   "scifi": {
+    "collected": 226,
+    "passed": 157,
+    "kept": 0
+   }
+  },
+  "license": {
+   "animal": {
+    "by-sa": 996,
+    "by": 267,
+    "pdm": 194,
+    "cc0": 158,
+    "by-nc": 45
+   },
+   "plant": {
+    "by-nc": 46,
+    "by": 151,
+    "by-nc-sa": 4,
+    "by-sa": 457,
+    "pdm": 41,
+    "cc0": 45
+   },
+   "fungal": {
+    "by-nc": 944,
+    "by-sa": 965,
+    "by": 624,
+    "cc0": 168,
+    "by-nc-sa": 51,
+    "pdm": 91
+   },
+   "metaphor": {
+    "pdm": 77,
+    "by-sa": 203,
+    "by": 23,
+    "cc0": 32
+   },
+   "scifi": {
+    "by-sa": 146,
+    "cc0": 35,
+    "by": 37,
+    "pdm": 8
+   }
+  },
+  "source": {
+   "animal": {
+    "commons": 1557,
+    "wellcome": 103
+   },
+   "plant": {
+    "inat": 70,
+    "commons": 674
+   },
+   "fungal": {
+    "inat": 1269,
+    "commons": 1574
+   },
+   "metaphor": {
+    "commons": 335
+   },
+   "scifi": {
+    "commons": 226
+   }
+  },
+  "non_commercial": 1090
+ },
+ "specimens": [
+  {
+   "id": "commons_106066429",
+   "realm": "animal",
+   "title": "Splenectomy specimen",
+   "author": "Yapa Wijeratne",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Splenectomy_specimen.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_52930979",
+   "realm": "animal",
+   "title": "Dog heart (Pointer)",
+   "author": "Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Dog_heart_(Pointer).jpg",
+   "kept": true
+  },
+  {
+   "id": "commons_140343897",
+   "realm": "animal",
+   "title": "Macro Foie - Cirrhose 55-o.apatho-1367p-foie",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Macro_Foie_-_Cirrhose_55-o.apatho-1367p-foie.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_90214674",
+   "realm": "animal",
+   "title": "Rein Infarctus 55-o.apatho-1486a-rein",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rein_Infarctus_55-o.apatho-1486a-rein.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_78926078",
+   "realm": "animal",
+   "title": "Ovaire et Intestin Fibrome 55-o.apatho-1411a-ovintes",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ovaire_et_Intestin_Fibrome_55-o.apatho-1411a-ovintes.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_75658756",
+   "realm": "animal",
+   "title": "Sphocroides sp at FMVZ-USP",
+   "author": "Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Sphocroides_sp_at_FMVZ-USP.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_951830",
+   "realm": "animal",
+   "title": "Splenic hemangiosarcoma",
+   "author": "Joel Mills",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Splenic_hemangiosarcoma.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_3793550",
+   "realm": "animal",
+   "title": "Pig Brain in a Jar",
+   "author": "David Shankbone",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pig_Brain_in_a_Jar.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_57372339",
+   "realm": "animal",
+   "title": "Equine stomach-FMVZ USP-25",
+   "author": "Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Equine_stomach-FMVZ_USP-25.jpeg",
+   "kept": false
+  },
+  {
+   "id": "commons_373242",
+   "realm": "animal",
+   "title": "Calf-Eye-Dissection-Far-2005-Oct-13",
+   "author": "No machine-readable author provided. Naib assumed (based on copyright claims).",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Calf-Eye-Dissection-Far-2005-Oct-13.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_55049977",
+   "realm": "animal",
+   "title": "Buffalo kidney-- FMVZ USP-09",
+   "author": "Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Buffalo_kidney--_FMVZ_USP-09.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_103473843",
+   "realm": "animal",
+   "title": "Giant squid tentacle in Zoological Museum in Copenhagen",
+   "author": "Inger E Winkelmann",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Giant_squid_tentacle_in_Zoological_Museum_in_Copenhagen.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_163305752",
+   "realm": "animal",
+   "title": "Ingredients of Lkercha",
+   "author": "مصطفى ملو",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ingredients_of_Lkercha.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_5306727",
+   "realm": "animal",
+   "title": "Lung cancer",
+   "author": "Emmanuelm at en.wikipedia",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lung_cancer.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_24372174",
+   "realm": "animal",
+   "title": "E000520 (CardioNetworks ECGpedia)",
+   "author": "CardioNetworks: Secretariat",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:E000520_(CardioNetworks_ECGpedia).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_140339152",
+   "realm": "animal",
+   "title": "Macro Cerveau - Microgyrie 55-o.apatho-1644a-cerveau",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Macro_Cerveau_-_Microgyrie_55-o.apatho-1644a-cerveau.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80879229",
+   "realm": "animal",
+   "title": "Lithobius forficatus (YPM IZ 098192)",
+   "author": "Daniel J. Drew",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lithobius_forficatus_(YPM_IZ_098192).jpeg",
+   "kept": false
+  },
+  {
+   "id": "commons_198050932",
+   "realm": "animal",
+   "title": "New World Screwworm Fly Traps in Central Texas (55475134585)",
+   "author": "USDAgov",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:New_World_Screwworm_Fly_Traps_in_Central_Texas_(55475134585).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_41429660",
+   "realm": "animal",
+   "title": "Preparing Chicken Liver 05",
+   "author": "Poupou l'quourouce",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Preparing_Chicken_Liver_05.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_99861568",
+   "realm": "animal",
+   "title": "Catocala neglecta YPM ENT 745039 D",
+   "author": "Lazarova, Y. P.",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Catocala_neglecta_YPM_ENT_745039_D.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_107281973",
+   "realm": "animal",
+   "title": "Fish gills in Tokyo",
+   "author": "Syced",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fish_gills_in_Tokyo.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_25794269",
+   "realm": "animal",
+   "title": "Gizzard of Chicken",
+   "author": "Bjferstern",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Gizzard_of_Chicken.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_25586915",
+   "realm": "animal",
+   "title": "Taxidemied Philippine Hawk-Eagle - Nisaetus philippensis - Ninoy Aquino Parks & Wildlife…",
+   "author": "Ramon FVelasquez",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Taxidemied_Philippine_Hawk-Eagle_-_Nisaetus_philippensis_-_Ninoy_Aquino_Parks_%26_Wildlife_Center.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_84774084",
+   "realm": "animal",
+   "title": "Bos sp. (cow) cranium 6 (47659032021)",
+   "author": "James St. John",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bos_sp._(cow)_cranium_6_(47659032021).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_24283078",
+   "realm": "animal",
+   "title": "Bleeding Heart Tavern, Hatton Garden, London (4140639980)",
+   "author": "Ewan Munro from London, UK",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bleeding_Heart_Tavern,_Hatton_Garden,_London_(4140639980).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_46075579",
+   "realm": "animal",
+   "title": "Naturalis Biodiversity Center - RMNH.AVES.152380 1 - Thraupis episcopus quaesita Bangs an…",
+   "author": "Bangs and Noble, 1918",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.152380_1_-_Thraupis_episcopus_quaesita_Bangs_and_Noble,_1918_-_Emberizidae_-_bird_skin_specimen.jpeg",
+   "kept": false
+  },
+  {
+   "id": "commons_78922967",
+   "realm": "animal",
+   "title": "Cœur Purpura thrombocytopenique 55-o.apatho-1143a-cœur",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:C%C5%93ur_Purpura_thrombocytopenique_55-o.apatho-1143a-c%C5%93ur.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_58495389",
+   "realm": "animal",
+   "title": "Bovine pancreas excretory system",
+   "author": "unknown author",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bovine_pancreas_excretory_system.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_67120486",
+   "realm": "animal",
+   "title": "What colour is a European Bison's tongue? (955617578)",
+   "author": "Neil McIntosh from Cambridge, United Kingdom",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:What_colour_is_a_European_Bison%27s_tongue%3F_(955617578).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_50348028",
+   "realm": "animal",
+   "title": "Avestruz alta",
+   "author": "Museum of Veterinary Anatomy FMVZ USP",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Avestruz_alta.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_110492104",
+   "realm": "animal",
+   "title": "Edamame, side, plot 1 2020-07-28-15.15.30 ZS copy (51494375836)",
+   "author": "USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Edamame,_side,_plot_1_2020-07-28-15.15.30_ZS_copy_(51494375836).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_163473630",
+   "realm": "animal",
+   "title": "Abramis brama - Swim bladder B 2010-09-24 HBP",
+   "author": "own work by me, Grand-Duc. Die volle Nennung des Autorenpseudonyms und der Zuschreibung w…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Abramis_brama_-_Swim_bladder_B_2010-09-24_HBP.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_57767357",
+   "realm": "animal",
+   "title": "Cat small intestine",
+   "author": "Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cat_small_intestine.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_140350789",
+   "realm": "animal",
+   "title": "Macro Cerveau - Métastases 55-o.apatho-1718d-cerveau",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Macro_Cerveau_-_M%C3%A9tastases_55-o.apatho-1718d-cerveau.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_25392572",
+   "realm": "animal",
+   "title": "5036358030 aeba458ea2 bFibromaFoot",
+   "author": "Otis Historical Archives of “National Museum of Health & Medicine” (OTIS Archive 1)",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:5036358030_aeba458ea2_bFibromaFoot.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_59415324",
+   "realm": "animal",
+   "title": "Human brain 01",
+   "author": "unknown author",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Human_brain_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_99879876",
+   "realm": "animal",
+   "title": "3684Common houseflies eating chicken hearts 53",
+   "author": "Judgefloro",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:3684Common_houseflies_eating_chicken_hearts_53.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_76556533",
+   "realm": "animal",
+   "title": "Broad-Snouted Caiman MAV 01",
+   "author": "Wagner Souza e Silva, edited by: Rodrigo Tetsuo Argenton",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Broad-Snouted_Caiman_MAV_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_58495782",
+   "realm": "animal",
+   "title": "Domestic pig liver",
+   "author": "unknown author",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Domestic_pig_liver.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_198421763",
+   "realm": "animal",
+   "title": "Wet-preserved embryological specimens 1",
+   "author": "Noukayami",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Wet-preserved_embryological_specimens_1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_58495533",
+   "realm": "animal",
+   "title": "Zebra spleen",
+   "author": "unknown author",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Zebra_spleen.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_52076362",
+   "realm": "animal",
+   "title": "Lungs and trachea of canid",
+   "author": "Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lungs_and_trachea_of_canid.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_26188505",
+   "realm": "animal",
+   "title": "Rectum - opened",
+   "author": "http://pathinfo.wikia.com/wiki/User:Hagemani",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rectum_-_opened.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_31127797",
+   "realm": "animal",
+   "title": "Honeycomb lung (5185647066)",
+   "author": "Yale Rosen from USA",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Honeycomb_lung_(5185647066).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_15911481",
+   "realm": "animal",
+   "title": "Milzruptur THWZ",
+   "author": "Thomas Zimmermann (THWZ)",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Milzruptur_THWZ.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_53213123",
+   "realm": "animal",
+   "title": "Dog heart (Great Dane)",
+   "author": "Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Dog_heart_(Great_Dane).jpg",
+   "kept": true
+  },
+  {
+   "id": "commons_7313181",
+   "realm": "animal",
+   "title": "Big Liver Tumor",
+   "author": "haitham alfalah",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Big_Liver_Tumor.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_140336619",
+   "realm": "animal",
+   "title": "Macro Reins - Nécrose corticale bilatérale 55-o.apatho-275p-reins",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Macro_Reins_-_N%C3%A9crose_corticale_bilat%C3%A9rale_55-o.apatho-275p-reins.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_32891294",
+   "realm": "animal",
+   "title": "Fibroinflammatory polyp of the stomach",
+   "author": "Humpath",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fibroinflammatory_polyp_of_the_stomach.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_73895760",
+   "realm": "animal",
+   "title": "Mutt dog. “Canis lupus familiaris” 01",
+   "author": "Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mutt_dog._%E2%80%9CCanis_lupus_familiaris%E2%80%9D_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_78136143",
+   "realm": "animal",
+   "title": "Rate Leucose aiguë (vue postérieure) 55-o.apatho-231p-rate",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rate_Leucose_aigu%C3%AB_(vue_post%C3%A9rieure)_55-o.apatho-231p-rate.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_36238303",
+   "realm": "animal",
+   "title": "Specimen jar containing piece of William Burke's brain Wellcome L0065696",
+   "author": "unknown author",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Specimen_jar_containing_piece_of_William_Burke%27s_brain_Wellcome_L0065696.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_57372279",
+   "realm": "animal",
+   "title": "Didactic model of a bovine omasum and abomasum-FMVZ USP-26",
+   "author": "Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Didactic_model_of_a_bovine_omasum_and_abomasum-FMVZ_USP-26.jpeg",
+   "kept": false
+  },
+  {
+   "id": "commons_40415021",
+   "realm": "animal",
+   "title": "View of the inner and outer ear (11291056396)",
+   "author": "University of Liverpool Faculty of Health & Life Sciences from Liverpool, United Kingdom",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:View_of_the_inner_and_outer_ear_(11291056396).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_55050038",
+   "realm": "animal",
+   "title": "Equine kidney (longitudinal cut)- FMVZ USP-20",
+   "author": "Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Equine_kidney_(longitudinal_cut)-_FMVZ_USP-20.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_127083169",
+   "realm": "animal",
+   "title": "Giant squid limb remains, NHM (1)",
+   "author": "Mgiganteus1",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Giant_squid_limb_remains,_NHM_(1).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_176801404",
+   "realm": "animal",
+   "title": "Pneumonie ovin un côté",
+   "author": "Aslaoui Ikrame",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pneumonie_ovin_un_c%C3%B4t%C3%A9.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_107585422",
+   "realm": "animal",
+   "title": "Eiserne Lunge - Iron Lung - Draeger E52 03",
+   "author": "spacebirdy(also known as geimfyglið (:> )=| made with Sternenlaus-spirit)",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Eiserne_Lunge_-_Iron_Lung_-_Draeger_E52_03.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_93172820",
+   "realm": "animal",
+   "title": "2020 Sfigmomanometr elektroniczny",
+   "author": "Jacek Halicki",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:2020_Sfigmomanometr_elektroniczny.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_140336738",
+   "realm": "animal",
+   "title": "Macro Cerveau - Glioblastome 55-o.apatho-365p-cerveau",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Macro_Cerveau_-_Glioblastome_55-o.apatho-365p-cerveau.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80879232",
+   "realm": "animal",
+   "title": "Lithobius forficatus (YPM IZ 098201)",
+   "author": "Daniel J. Drew",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lithobius_forficatus_(YPM_IZ_098201).jpeg",
+   "kept": false
+  },
+  {
+   "id": "commons_64374966",
+   "realm": "animal",
+   "title": "Incomplete fixation",
+   "author": "Tameem Baker",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Incomplete_fixation.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_182116105",
+   "realm": "animal",
+   "title": "Liat Portal for Foodie Disorder - Chicken Liver with Chestnuts and Rice",
+   "author": "HaJunkiyada",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Chicken_Liver_with_Chestnuts_and_Rice.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_95942153",
+   "realm": "animal",
+   "title": "Catocala desiderata YPM ENT 745255 V",
+   "author": "Howard, A. S.",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Catocala_desiderata_YPM_ENT_745255_V.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_6903022",
+   "realm": "animal",
+   "title": "Carp gill defect",
+   "author": "Guitardude012",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Carp_gill_defect.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_15488931",
+   "realm": "animal",
+   "title": "Cypraidae - Cypraea ventriculus - Leyete, Philippines-9",
+   "author": "Hectonichus",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cypraidae_-_Cypraea_ventriculus_-_Leyete,_Philippines-9.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_84500373",
+   "realm": "animal",
+   "title": "Black nephrite jade (Precambrian; central Wyoming, USA) (24664298766)",
+   "author": "James St. John",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Black_nephrite_jade_(Precambrian;_central_Wyoming,_USA)_(24664298766).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_84774090",
+   "realm": "animal",
+   "title": "Bos sp. (cow) mandible 2 (47606347582)",
+   "author": "James St. John",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bos_sp._(cow)_mandible_2_(47606347582).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_199298008",
+   "realm": "animal",
+   "title": "Heart of Pig - DSC03346",
+   "author": "JIBON",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Heart_of_Pig_-_DSC03346.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_199526528",
+   "realm": "animal",
+   "title": "Preserved specimen of Diospyros adenophora Bakh. recorded on 1929-08-05",
+   "author": "Royal Botanic Gardens, Kew",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Preserved_specimen_of_Diospyros_adenophora_Bakh._recorded_on_1929-08-05.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_140350209",
+   "realm": "animal",
+   "title": "Macro Cœur - Infarctus 55-o.apatho-855p-coeur",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Macro_C%C5%93ur_-_Infarctus_55-o.apatho-855p-coeur.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_178883466",
+   "realm": "animal",
+   "title": "Tongue Dev Anatomy Coloured",
+   "author": "VysseWestwood",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Tongue_Dev_Anatomy_Coloured.png",
+   "kept": false
+  },
+  {
+   "id": "commons_18627357",
+   "realm": "animal",
+   "title": "Female Cane Toad (Bufo marinus) dissection - (1)",
+   "author": "Rob and Stephanie Levy from Townsville, Australia",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Female_Cane_Toad_(Bufo_marinus)_dissection_-_(1).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_110492098",
+   "realm": "animal",
+   "title": "Soybean full dissected flower 2021-07-16-14.04.25 ZS PMax UDR (51495083974)",
+   "author": "USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Soybean_full_dissected_flower_2021-07-16-14.04.25_ZS_PMax_UDR_(51495083974).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_163473631",
+   "realm": "animal",
+   "title": "Abramis brama - Swim bladder A 2010-09-24 HBP",
+   "author": "own work by me, Grand-Duc. Die volle Nennung des Autorenpseudonyms und der Zuschreibung w…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Abramis_brama_-_Swim_bladder_A_2010-09-24_HBP.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_57767359",
+   "realm": "animal",
+   "title": "Bovine duodenal papilla",
+   "author": "Wagner Souza e Silva",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bovine_duodenal_papilla.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_78135878",
+   "realm": "animal",
+   "title": "Surrénale Neuroblastome (vue postérieure) 55-o.apatho-144p-surrenale",
+   "author": "Denis Desaulniers et Bernard Têtu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Surr%C3%A9nale_Neuroblastome_(vue_post%C3%A9rieure)_55-o.apatho-144p-surrenale.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_124469580",
+   "realm": "animal",
+   "title": "Cholesteatoma, Gross Specimen (51144665835)",
+   "author": "Ed Uthman from Houston, TX, USA",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cholesteatoma,_Gross_Specimen_(51144665835).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_58495231",
+   "realm": "animal",
+   "title": "Horse brain",
+   "author": "unknown author",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Horse_brain.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_99879800",
+   "realm": "animal",
+   "title": "3684Common houseflies eating chicken hearts 18",
+   "author": "Judgefloro",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:3684Common_houseflies_eating_chicken_hearts_18.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_167101616",
+   "realm": "plant",
+   "title": "Viburnum opulus",
+   "author": "alina_bryleva",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/100141825",
+   "kept": false
+  },
+  {
+   "id": "commons_93234578",
+   "realm": "plant",
+   "title": "Cut flowers from an artichoke",
+   "author": "Hu Nhu",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cut_flowers_from_an_artichoke.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_116770655",
+   "realm": "plant",
+   "title": "Swiss pine (Pinus cembra) 'Columnaris' cone",
+   "author": "ILoveAllTrees",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Swiss_pine_(Pinus_cembra)_%27Columnaris%27_cone.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_183820854",
+   "realm": "plant",
+   "title": "Liat Portal for Foodie Disorder - Fresh ginger root from San Francisco farmers market",
+   "author": "HaJunkiyada",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Fresh_ginger_root_from_San_Francisco_farmers_market.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_166825605",
+   "realm": "plant",
+   "title": "Close-up of heliotrope flower (Heliotropium arborescens), Jardim da Fundação Calouste Gul…",
+   "author": "Jules Verne Times Two",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Close-up_of_heliotrope_flower_(Heliotropium_arborescens),_Jardim_da_Funda%C3%A7%C3%A3o_Calouste_Gulbenkian,_Lisbon,_Portugal_julesvernex2.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_251673570",
+   "realm": "plant",
+   "title": "Hydnora esculenta",
+   "author": "sympiotr",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/146391901",
+   "kept": false
+  },
+  {
+   "id": "commons_128853136",
+   "realm": "plant",
+   "title": "Pomegranate 7",
+   "author": "Gaurav Dhwaj Khadka",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pomegranate_7.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_152170035",
+   "realm": "plant",
+   "title": "Zaadpeulen van goudenregen (Laburnum anagyroides), 31-08-2024. (d.j.b)",
+   "author": "Dominicus Johannes Bergsma",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Zaadpeulen_van_goudenregen_(Laburnum_anagyroides),_31-08-2024._(d.j.b).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_53224968",
+   "realm": "plant",
+   "title": "Fern fronds - panoramio (985)",
+   "author": "Korkut Tas",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fern_fronds_-_panoramio_(985).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_179365914",
+   "realm": "plant",
+   "title": "Romanesco broccoli 2025 G1",
+   "author": "George Chernilevsky",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Romanesco_broccoli_2025_G1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_59421513",
+   "realm": "plant",
+   "title": "Prunus cerasus tree rings 6",
+   "author": "PumpkinSky",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Prunus_cerasus_tree_rings_6.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_152565327",
+   "realm": "plant",
+   "title": "Orchid at Palakayamthattu 5",
+   "author": "Nativeplants garden",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Orchid_at_Palakayamthattu_5.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_76495991",
+   "realm": "plant",
+   "title": "Close-up of Chrysomya (Old World blow fly) on a green leaf",
+   "author": "Basile Morin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Close-up_of_Chrysomya_(Old_World_blow_fly)_on_a_green_leaf.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_138619643",
+   "realm": "plant",
+   "title": "020231008 Juglans regia L",
+   "author": "Silar",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:020231008_Juglans_regia_L.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_175679738",
+   "realm": "plant",
+   "title": "Gold stud earrings on onion by ASQ",
+   "author": "W.carter",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Gold_stud_earrings_on_onion_by_ASQ.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_104136730",
+   "realm": "plant",
+   "title": "Chinese golden rain tree, fruit or seed pods -- Koelreuteria bipinnata",
+   "author": "Jim Evans",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chinese_golden_rain_tree,_fruit_or_seed_pods_--_Koelreuteria_bipinnata.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_19243901",
+   "realm": "plant",
+   "title": "Misidentified Disocactus phyllanthoides, Jardín Botánico, Múnich, Alemania 2012-04-21, DD…",
+   "author": "Diego Delso",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Misidentified_Disocactus_phyllanthoides,_Jard%C3%ADn_Bot%C3%A1nico,_M%C3%BAnich,_Alemania_2012-04-21,_DD_02.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_35161416",
+   "realm": "plant",
+   "title": "Vegetables(byWebvilla)",
+   "author": "Webvilla",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Vegetables(byWebvilla).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_128148577",
+   "realm": "plant",
+   "title": "HK SKD TKO Tseung Kwan O 富康花園 Beverly Garden Market shop root vegetable pink January 2023…",
+   "author": "SAMSYAN FUXWOHJ",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_Tseung_Kwan_O_%E5%AF%8C%E5%BA%B7%E8%8A%B1%E5%9C%92_Beverly_Garden_Market_shop_root_vegetable_pink_January_2023_Px3.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_166330728",
+   "realm": "plant",
+   "title": "Seed Pod Lotus BackYardEstates Cary NC185614",
+   "author": "bobistraveling",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Seed_Pod_Lotus_BackYardEstates_Cary_NC185614.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_68275686",
+   "realm": "plant",
+   "title": "Palmyra fruit (cut)",
+   "author": "Subhashish Panigrahi",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Palmyra_fruit_(cut).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_137790942",
+   "realm": "plant",
+   "title": "Echeveria peacockii-2-R.M.Nagar-bangalore-India",
+   "author": "Yercaud-elango",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Echeveria_peacockii-2-R.M.Nagar-bangalore-India.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_18521307",
+   "realm": "plant",
+   "title": "Acorns",
+   "author": "Dakota L.",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Acorns.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_128490743",
+   "realm": "plant",
+   "title": "Tubers of yam for sale",
+   "author": "Ibn Dagara",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Tubers_of_yam_for_sale.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_47811015",
+   "realm": "plant",
+   "title": "Cyrtosia septentrionalis",
+   "author": "douggoldman",
+   "license": "by-sa",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/30596680",
+   "kept": false
+  },
+  {
+   "id": "commons_120068809",
+   "realm": "plant",
+   "title": "-2022-07-03 Globe artichoke plant, Trimingham, Norfolk (2)",
+   "author": "Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:-2022-07-03_Globe_artichoke_plant,_Trimingham,_Norfolk_(2).JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_60410198",
+   "realm": "plant",
+   "title": "Limestone votive pine cone MET DP122099",
+   "author": "unknown author",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Limestone_votive_pine_cone_MET_DP122099.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_255480",
+   "realm": "plant",
+   "title": "Zingiber officinale - Köhler–s Medizinal-Pflanzen-146",
+   "author": "Franz Eugen Köhler",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Zingiber_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-146.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_131793263",
+   "realm": "plant",
+   "title": "01 Pelargonium flower close-up",
+   "author": "Mister rf",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:01_Pelargonium_flower_close-up.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_127638745",
+   "realm": "plant",
+   "title": "Cytisus scoparius",
+   "author": "shanebustapbj",
+   "license": "cc0",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/78018960",
+   "kept": false
+  },
+  {
+   "id": "commons_54851385",
+   "realm": "plant",
+   "title": "Pomegranate on white",
+   "author": "Rhododendrites",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pomegranate_on_white.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_109435188",
+   "realm": "plant",
+   "title": "Iris sibirica, zaadboxen. 28-08-2021. (d.j.b) 01",
+   "author": "Dominicus Johannes Bergsma",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Iris_sibirica,_zaadboxen._28-08-2021._(d.j.b)_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_112792376",
+   "realm": "plant",
+   "title": "Fern frond (9538983118)",
+   "author": "Ruth Hartnup from Vancouver, Canada",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fern_frond_(9538983118).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_31366317",
+   "realm": "plant",
+   "title": "Chou romanesco 01",
+   "author": "Coyau",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chou_romanesco_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_59421572",
+   "realm": "plant",
+   "title": "Prunus cerasus tree rings 11",
+   "author": "PumpkinSky",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Prunus_cerasus_tree_rings_11.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_152471923",
+   "realm": "plant",
+   "title": "Wild Orchid flower IMG 20240105 074617",
+   "author": "Sindhu Haridas",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Wild_Orchid_flower_IMG_20240105_074617.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_83710227",
+   "realm": "plant",
+   "title": "Close-up view of a bioluminescent beetle Elateroidea",
+   "author": "Basile Morin",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Close-up_view_of_a_bioluminescent_beetle_Elateroidea.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_1468736",
+   "realm": "plant",
+   "title": "Eastern Grey Squirrel in St James's Park, London - Nov 2006 edit",
+   "author": "Diliff",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Eastern_Grey_Squirrel_in_St_James%27s_Park,_London_-_Nov_2006_edit.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_62712440",
+   "realm": "plant",
+   "title": "Red onion bulb soft and sprouting after being stored in light. Net packaging. Norway, Sep…",
+   "author": "Wolfmann",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Red_onion_bulb_soft_and_sprouting_after_being_stored_in_light._Net_packaging._Norway,_September_2017.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_86848063",
+   "realm": "plant",
+   "title": "Seed Pod examples(GN03364)",
+   "author": "State Government Photographer",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Seed_Pod_examples(GN03364).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_116927881",
+   "realm": "plant",
+   "title": "Cactus comune (cactaceae) -WikiForHumanRights",
+   "author": "Perfectnews",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cactus_comune_(cactaceae)_-WikiForHumanRights.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_124509680",
+   "realm": "plant",
+   "title": "Red cabbage jm154679",
+   "author": "joergens.mi",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Red_cabbage_jm154679.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_61569292",
+   "realm": "plant",
+   "title": "Neon root veggies (roasted beets, turnips, rutabaga, carrots and onions) (6893015819)",
+   "author": "Gloria Cabada-Leman",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Neon_root_veggies_(roasted_beets,_turnips,_rutabaga,_carrots_and_onions)_(6893015819).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_166330916",
+   "realm": "plant",
+   "title": "Lotus Seed Pod Backyard Estates Cary NC 20180813 102422",
+   "author": "bobistraveling",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lotus_Seed_Pod_Backyard_Estates_Cary_NC_20180813_102422.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_67293201",
+   "realm": "plant",
+   "title": "Syzygium samarangense (cut in half)",
+   "author": "Mk2010",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Syzygium_samarangense_(cut_in_half).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_129143840",
+   "realm": "plant",
+   "title": "Senecio cephalphorus-3-RM Nagar-bangalore-India",
+   "author": "Yercaud-elango",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Senecio_cephalphorus-3-RM_Nagar-bangalore-India.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_25535513",
+   "realm": "plant",
+   "title": "Acorns small to large cropped",
+   "author": "Acorns_small_to_large.jpg: David Hill derivative work: Tomer T",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Acorns_small_to_large_cropped.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_102686716",
+   "realm": "plant",
+   "title": "Boiled yam with fried egg",
+   "author": "Bukky658",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Boiled_yam_with_fried_egg.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_332238815",
+   "realm": "plant",
+   "title": "Cucurbita foetidissima",
+   "author": "vreinkymov",
+   "license": "cc0",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/189625659",
+   "kept": false
+  },
+  {
+   "id": "commons_43305278",
+   "realm": "plant",
+   "title": "Artichoke by Fujishima Takeji (National Museum of Modern Art, Tokyo)",
+   "author": "Fujishima Takeji",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Artichoke_by_Fujishima_Takeji_(National_Museum_of_Modern_Art,_Tokyo).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_177417501",
+   "realm": "plant",
+   "title": "Ergaki, Siberian pine cone with foliage, Sayan Mountains, Russia",
+   "author": "Vyacheslav Argenberg",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ergaki,_Siberian_pine_cone_with_foliage,_Sayan_Mountains,_Russia.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_169403910",
+   "realm": "plant",
+   "title": "Ginger (29114)",
+   "author": "SarKaLay စာကလေး",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ginger_(29114).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_92691",
+   "realm": "plant",
+   "title": "Galanthus nivalis close-up aka",
+   "author": "André Karwath aka Aka",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Galanthus_nivalis_close-up_aka.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_120009761",
+   "realm": "plant",
+   "title": "Mimetes chrysanthus",
+   "author": "outramps-tanniedi",
+   "license": "cc0",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/73504860",
+   "kept": false
+  },
+  {
+   "id": "commons_181093079",
+   "realm": "plant",
+   "title": "Liat Portal for Foodie Disorder - Pomegranate Seeds",
+   "author": "HaJunkiyada",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Pomegranate_Seeds.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_94346130",
+   "realm": "plant",
+   "title": "Gebarsten bolster van een paardenkastanje (Aesculus) 20-09-2020 (d.j.b.) 01",
+   "author": "Dominicus Johannes Bergsma",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Gebarsten_bolster_van_een_paardenkastanje_(Aesculus)_20-09-2020_(d.j.b.)_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_71399252",
+   "realm": "plant",
+   "title": "Fern Frond (15884937104)",
+   "author": "Will Brown",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fern_Frond_(15884937104).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_75975325",
+   "realm": "plant",
+   "title": "Münster, Domplatz, Wochenmarkt -- 2019 -- 2664",
+   "author": "Dietmar Rabich",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnster,_Domplatz,_Wochenmarkt_--_2019_--_2664.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_2834864",
+   "realm": "plant",
+   "title": "Gefüllter Hokkaidokürbis",
+   "author": "Neitram",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Gef%C3%BCllter_Hokkaidok%C3%BCrbis.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_131919767",
+   "realm": "plant",
+   "title": "Ban Ki-Moon Orchid Flower Singapore Feb23 D72 25479",
+   "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please ment…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ban_Ki-Moon_Orchid_Flower_Singapore_Feb23_D72_25479.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_72946865",
+   "realm": "plant",
+   "title": "Leaf on fern close up (36954847370)",
+   "author": "Superior National Forest",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Leaf_on_fern_close_up_(36954847370).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_4837573",
+   "realm": "plant",
+   "title": "Juglans regia Echte Walnussfrucht 1",
+   "author": "Böhringer Friedrich",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Juglans_regia_Echte_Walnussfrucht_1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_19181856",
+   "realm": "plant",
+   "title": "Red Onion on White",
+   "author": "Colin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Red_Onion_on_White.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_162774941",
+   "realm": "plant",
+   "title": "Milkweed Seed Pod (19916726494)",
+   "author": "U.S. Fish and Wildlife Service - Midwest Region",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Milkweed_Seed_Pod_(19916726494).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_42132762",
+   "realm": "plant",
+   "title": "Mammillaria longimamma (5777634160)",
+   "author": "Amante Darmanin from Malta",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mammillaria_longimamma_(5777634160).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_144461482",
+   "realm": "plant",
+   "title": "20140221-OC-LSC-0001",
+   "author": "U.S. Department of Agriculture",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:20140221-OC-LSC-0001.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_100373072",
+   "realm": "plant",
+   "title": "Root crops for sale in the Philippines",
+   "author": "Irvin Parco Sto. Tomas",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Root_crops_for_sale_in_the_Philippines.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_127800637",
+   "realm": "plant",
+   "title": "Lotus seed pod (6454121613)",
+   "author": "Maarten Heerlien from Voorschoten, The Netherlands",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lotus_seed_pod_(6454121613).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_195182992",
+   "realm": "plant",
+   "title": "(Durian fruit cut open, Bangkok, Thailand) - DPLA - ccf52c1d4ea285fbe5fd580a8930c214",
+   "author": "Carlquist, Sherwin John, 1930-2021",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:(Durian_fruit_cut_open,_Bangkok,_Thailand)_-_DPLA_-_ccf52c1d4ea285fbe5fd580a8930c214.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_61586010",
+   "realm": "plant",
+   "title": "Crassulaceae in Iran- Mahallat city 45",
+   "author": "Mostafameraji",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Crassulaceae_in_Iran-_Mahallat_city_45.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_74284721",
+   "realm": "plant",
+   "title": "Acorn (9652672067)",
+   "author": "Alias 0591 from the Netherlands",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Acorn_(9652672067).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_102686710",
+   "realm": "plant",
+   "title": "Boiled yam with Kuli Kuli sauce",
+   "author": "Bukky658",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Boiled_yam_with_Kuli_Kuli_sauce.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_116981260",
+   "realm": "plant",
+   "title": "-2022-04-17 Globe artichoke plant, Trimingham, Norfolk",
+   "author": "Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:-2022-04-17_Globe_artichoke_plant,_Trimingham,_Norfolk.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_5205291",
+   "realm": "plant",
+   "title": "Picea Pungens Young Cones",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Picea_Pungens_Young_Cones.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_188609026",
+   "realm": "plant",
+   "title": "Ginger Root - Cameron Lew (Chinese -刘国明) performing at Mahalls Lakewood Ohio 2024",
+   "author": "King Ahamkara",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ginger_Root_-_Cameron_Lew_(Chinese_-%E5%88%98%E5%9B%BD%E6%98%8E)_performing_at_Mahalls_Lakewood_Ohio_2024.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_116136766",
+   "realm": "plant",
+   "title": "Close-up photographs of wild flowers in the Philippines 03",
+   "author": "LubGua987",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Close-up_photographs_of_wild_flowers_in_the_Philippines_03.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_121777929",
+   "realm": "plant",
+   "title": "Asclepias asperula capricornu",
+   "author": "pufferchung",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/74507705",
+   "kept": false
+  },
+  {
+   "id": "commons_194930505",
+   "realm": "plant",
+   "title": "Pomegranate Flower pic",
+   "author": "Manukrishnan80",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pomegranate_Flower_pic.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_104068569",
+   "realm": "plant",
+   "title": "Hamamelis x intermedia 'Angelly'. 18-04-2021. (d.j.b)",
+   "author": "Dominicus Johannes Bergsma",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Hamamelis_x_intermedia_%27Angelly%27._18-04-2021._(d.j.b).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_78754564",
+   "realm": "plant",
+   "title": "Onoclea sensibilis or Sensitive Fern, fertile frond, Chapeltoun",
+   "author": "Rosser1954",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Onoclea_sensibilis_or_Sensitive_Fern,_fertile_frond,_Chapeltoun.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_131111218",
+   "realm": "fungal",
+   "title": "Slime Mold Summer IMG 0928 (1)",
+   "author": "MrJones-bio1gy",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Slime_Mold_Summer_IMG_0928_(1).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_50177462",
+   "realm": "fungal",
+   "title": "Morchella esculenta (26593538756)",
+   "author": "Björn S...",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Morchella_esculenta_(26593538756).jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_130004238",
+   "realm": "fungal",
+   "title": "Cortinarius archeri",
+   "author": "tassietravelsblog",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/79370907",
+   "kept": false
+  },
+  {
+   "id": "inat_8334694",
+   "realm": "fungal",
+   "title": "Protohydnum album",
+   "author": "lostculture",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/6569894",
+   "kept": false
+  },
+  {
+   "id": "inat_115700288",
+   "realm": "fungal",
+   "title": "Cantharellus californicus",
+   "author": "isaac_krone",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/71099346",
+   "kept": false
+  },
+  {
+   "id": "commons_202432055",
+   "realm": "fungal",
+   "title": "Puffball mushroom in Bancroft Park",
+   "author": "Aenet",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Puffball_mushroom_in_Bancroft_Park.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_705640117",
+   "realm": "fungal",
+   "title": "Gibellula",
+   "author": "roe_brasil",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/385453425",
+   "kept": false
+  },
+  {
+   "id": "commons_81218551",
+   "realm": "fungal",
+   "title": "Shelf Fungus (28516002474)",
+   "author": "Katja Schulz from Washington, D. C., USA",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Shelf_Fungus_(28516002474).jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_178348211",
+   "realm": "fungal",
+   "title": "Stereum ochraceoflavum",
+   "author": "alan_rockefeller",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/106192733",
+   "kept": false
+  },
+  {
+   "id": "commons_1475134",
+   "realm": "fungal",
+   "title": "Truffe noire du Périgord",
+   "author": "moi-même",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Truffe_noire_du_P%C3%A9rigord.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_400419948",
+   "realm": "fungal",
+   "title": "Choiromyces sp. 'meandriformis-PNW03'",
+   "author": "mandymushii",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/225820861",
+   "kept": false
+  },
+  {
+   "id": "commons_11933404",
+   "realm": "fungal",
+   "title": "Amanita sp. 2010-10-31",
+   "author": "The High Fin Sperm Whale",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Amanita_sp._2010-10-31.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_95220965",
+   "realm": "fungal",
+   "title": "Bird's nest fungus (Newark, Ohio, USA) 3",
+   "author": "James St. John",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bird%27s_nest_fungus_(Newark,_Ohio,_USA)_3.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_480256",
+   "realm": "fungal",
+   "title": "Tremella mesenterica (Taka Img 2934)",
+   "author": "No machine-readable author provided. Taka assumed (based on copyright claims).",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Tremella_mesenterica_(Taka_Img_2934).jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_230634467",
+   "realm": "fungal",
+   "title": "Calostoma cinnabarinum",
+   "author": "alan_rockefeller",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/135238639",
+   "kept": false
+  },
+  {
+   "id": "commons_145272433",
+   "realm": "fungal",
+   "title": "Turkey tail patuxent research refuge north tract 10.8.23 DSC 4273-topaz-denoiseraw-sharpen",
+   "author": "lwolfartist",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Turkey_tail_patuxent_research_refuge_north_tract_10.8.23_DSC_4273-topaz-denoiseraw-sharpen.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_177926982",
+   "realm": "fungal",
+   "title": "MG 0582 Schizophyllum commune- Split-gill Mushroom 25",
+   "author": "Sourabh.biswas003",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:MG_0582_Schizophyllum_commune-_Split-gill_Mushroom_25.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_243846413",
+   "realm": "fungal",
+   "title": "Pectenia plumbea",
+   "author": "agbelliveau",
+   "license": "cc0",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/142250632",
+   "kept": false
+  },
+  {
+   "id": "commons_41959805",
+   "realm": "fungal",
+   "title": "Grifola frondosa (6486237693)",
+   "author": "caspar s",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Grifola_frondosa_(6486237693).jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_458636958",
+   "realm": "fungal",
+   "title": "Lycoperdon perlatum",
+   "author": "mnerrie",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/255872820",
+   "kept": false
+  },
+  {
+   "id": "inat_235423575",
+   "realm": "fungal",
+   "title": "Chlorociboria aeruginascens",
+   "author": "alan_rockefeller",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/137807557",
+   "kept": false
+  },
+  {
+   "id": "commons_112630878",
+   "realm": "fungal",
+   "title": "Armillaria mellea 162706005",
+   "author": "Tom Zucker-Scharff",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Armillaria_mellea_162706005.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_101309949",
+   "realm": "fungal",
+   "title": "Cup fungus (3896600947)",
+   "author": "anemoneprojectors",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cup_fungus_(3896600947).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_195715014",
+   "realm": "fungal",
+   "title": "Bracket fungus on wood",
+   "author": "Pearl Aketch",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bracket_fungus_on_wood.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_61265308",
+   "realm": "fungal",
+   "title": "Clavarioid fungi 3833",
+   "author": "Vengolis",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Clavarioid_fungi_3833.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_307171931",
+   "realm": "fungal",
+   "title": "Callistosporium pseudofelleum",
+   "author": "alan_rockefeller",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/176666288",
+   "kept": false
+  },
+  {
+   "id": "commons_162396533",
+   "realm": "fungal",
+   "title": "Cordyceps Militaris",
+   "author": "mushroomclinicaltrials.com",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cordyceps_Militaris.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_162399463",
+   "realm": "fungal",
+   "title": "Chanterelle Mushroom (51862167924)",
+   "author": "ShenandoahNPS",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chanterelle_Mushroom_(51862167924).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_112836214",
+   "realm": "fungal",
+   "title": "Phallus impudicus 167384521",
+   "author": "Carminda Santos",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Phallus_impudicus_167384521.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_13071527",
+   "realm": "fungal",
+   "title": "Trichaptum biforme",
+   "author": "mycowalt",
+   "license": "by-sa",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/9574570",
+   "kept": false
+  },
+  {
+   "id": "inat_558085149",
+   "realm": "fungal",
+   "title": "Sphaerobolus stellatus",
+   "author": "ezatars",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/309282649",
+   "kept": false
+  },
+  {
+   "id": "inat_81891308",
+   "realm": "fungal",
+   "title": "Pseudocolus fusiformis",
+   "author": "mdettling",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/51538215",
+   "kept": false
+  },
+  {
+   "id": "commons_153898461",
+   "realm": "fungal",
+   "title": "Lichens, Paithalmala 6",
+   "author": "Nativeplants garden",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lichens,_Paithalmala_6.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_149865098",
+   "realm": "fungal",
+   "title": "Xylaria tentaculata",
+   "author": "fungee",
+   "license": "cc0",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/90665496",
+   "kept": false
+  },
+  {
+   "id": "commons_98761722",
+   "realm": "fungal",
+   "title": "Astraeus hygrometricus 2868412",
+   "author": "Katja Schulz",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Astraeus_hygrometricus_2868412.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_190316948",
+   "realm": "fungal",
+   "title": "Toadstool, Mount Glorious March 1957",
+   "author": "Jack Bain",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Toadstool,_Mount_Glorious_March_1957.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_96215914",
+   "realm": "fungal",
+   "title": "Hericium erinaceus 104664221",
+   "author": "Becky",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_104664221.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_134644047",
+   "realm": "fungal",
+   "title": "Boletaceae (51411675664)",
+   "author": "Tero Karppinen from Finland",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Boletaceae_(51411675664).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_178073856",
+   "realm": "fungal",
+   "title": "Mature Wine Cap Mushrooms 01",
+   "author": "Allyzilla",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mature_Wine_Cap_Mushrooms_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_177496850",
+   "realm": "fungal",
+   "title": "Kreuzsporiger Rötling (Entoloma conferendum)-20251022-RM-172351",
+   "author": "Reinhold Möller Ermell",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Kreuzsporiger_R%C3%B6tling_(Entoloma_conferendum)-20251022-RM-172351.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_96014944",
+   "realm": "fungal",
+   "title": "Fly agaric mushroom Ooty Jul17 DSC04142",
+   "author": "Timothy A. Gonsalves",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fly_agaric_mushroom_Ooty_Jul17_DSC04142.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_134780076",
+   "realm": "fungal",
+   "title": "Oyster mushroom pins 3",
+   "author": "knotimpressed",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Oyster_mushroom_pins_3.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_99916673",
+   "realm": "fungal",
+   "title": "Tremella fuciformis",
+   "author": "alex_abair",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/62367956",
+   "kept": false
+  },
+  {
+   "id": "inat_206537348",
+   "realm": "fungal",
+   "title": "Phaeoclavulina cyanocephala",
+   "author": "w_endo",
+   "license": "cc0",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/122014672",
+   "kept": false
+  },
+  {
+   "id": "inat_170534613",
+   "realm": "fungal",
+   "title": "Neofavolus alveolaris",
+   "author": "sdz456",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/102059568",
+   "kept": false
+  },
+  {
+   "id": "inat_327878855",
+   "realm": "fungal",
+   "title": "Phyllopsora corallina",
+   "author": "mjpapay",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/187482214",
+   "kept": false
+  },
+  {
+   "id": "commons_49929309",
+   "realm": "fungal",
+   "title": "Mushroom Cluster on Wood - Flickr - treegrow",
+   "author": "Katja Schulz from Washington, D. C., USA",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mushroom_Cluster_on_Wood_-_Flickr_-_treegrow.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_97146386",
+   "realm": "fungal",
+   "title": "Coprinus comatus 105836903",
+   "author": "Corvi Zeman",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Coprinus_comatus_105836903.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_7570018",
+   "realm": "fungal",
+   "title": "Slime Mold On Deadwood",
+   "author": "Lawrence Durell Wade, M.D.",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Slime_Mold_On_Deadwood.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_156090205",
+   "realm": "fungal",
+   "title": "Morille commune au pied de jonquilles 02",
+   "author": "Z0E 6868",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Morille_commune_au_pied_de_jonquilles_02.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_28436720",
+   "realm": "fungal",
+   "title": "Psilocybe allenii",
+   "author": "alan_rockefeller",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/18583878",
+   "kept": false
+  },
+  {
+   "id": "inat_21657506",
+   "realm": "fungal",
+   "title": "Protohydnum album",
+   "author": "e16",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/14540557",
+   "kept": false
+  },
+  {
+   "id": "inat_234188824",
+   "realm": "fungal",
+   "title": "Cantharellus roseocanus",
+   "author": "alan_rockefeller",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/137153632",
+   "kept": false
+  },
+  {
+   "id": "commons_161092450",
+   "realm": "fungal",
+   "title": "Roadside puffball - geograph.org.uk - 7439026",
+   "author": "M J Richardson",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Roadside_puffball_-_geograph.org.uk_-_7439026.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_189797179",
+   "realm": "fungal",
+   "title": "Amphichorda felina",
+   "author": "cooperj",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/112364175",
+   "kept": false
+  },
+  {
+   "id": "commons_110229611",
+   "realm": "fungal",
+   "title": "Bracket Mushroom",
+   "author": "Lollykaps",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bracket_Mushroom.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_339486284",
+   "realm": "fungal",
+   "title": "Auriscalpium vulgare",
+   "author": "alan_rockefeller",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/193267539",
+   "kept": false
+  },
+  {
+   "id": "commons_9952720",
+   "realm": "fungal",
+   "title": "Castelmagno with truffle honey",
+   "author": "Nathalie Boisard-Beudin from Rome, Italy",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Castelmagno_with_truffle_honey.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_36442383",
+   "realm": "fungal",
+   "title": "Morchella diminutiva",
+   "author": "phillymycobeth",
+   "license": "cc0",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/23534914",
+   "kept": false
+  },
+  {
+   "id": "commons_7994920",
+   "realm": "fungal",
+   "title": "Amanita sp USA",
+   "author": "Dan Molter",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Amanita_sp_USA.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_69434613",
+   "realm": "fungal",
+   "title": "Nidulariaceae Dumort 543001",
+   "author": "This image was created by user Liz Popich (Lizzie) at Mushroom Observer, a source for myc…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Nidulariaceae_Dumort_543001.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_113763150",
+   "realm": "fungal",
+   "title": "Tremella mesenterica 173872189",
+   "author": "Michel Langeveld",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Tremella_mesenterica_173872189.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_422116040",
+   "realm": "fungal",
+   "title": "Alpova concolor",
+   "author": "mandymushii",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/237206084",
+   "kept": false
+  },
+  {
+   "id": "commons_196400119",
+   "realm": "fungal",
+   "title": "False turkey tail fungus near Chaihuín, Chile September 2025",
+   "author": "MattWithX1",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:False_turkey_tail_fungus_near_Chaihu%C3%ADn,_Chile_September_2025.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_177926958",
+   "realm": "fungal",
+   "title": "MG 0582 Schizophyllum commune- Split-gill Mushroom 12",
+   "author": "Sourabh.biswas003",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:MG_0582_Schizophyllum_commune-_Split-gill_Mushroom_12.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_1842640",
+   "realm": "fungal",
+   "title": "Peltigera gowardii",
+   "author": "kueda",
+   "license": "by",
+   "source": "inat",
+   "url": "http://www.inaturalist.org/observations/1454795",
+   "kept": false
+  },
+  {
+   "id": "commons_31614284",
+   "realm": "fungal",
+   "title": "Grifola frondosa - National Museum of Nature and Science, Tokyo - DSC06850",
+   "author": "Daderot",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Grifola_frondosa_-_National_Museum_of_Nature_and_Science,_Tokyo_-_DSC06850.JPG",
+   "kept": false
+  },
+  {
+   "id": "inat_66381049",
+   "realm": "fungal",
+   "title": "Calvatia gigantea",
+   "author": "courrierdebois",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/41834267",
+   "kept": false
+  },
+  {
+   "id": "inat_566019052",
+   "realm": "fungal",
+   "title": "Monilinia sp. 'CA01'",
+   "author": "thehyphaemovement",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/265487924",
+   "kept": false
+  },
+  {
+   "id": "commons_63548498",
+   "realm": "fungal",
+   "title": "Herfstwandeling door het Wijnjeterper Schar 018",
+   "author": "Agnes Monkelbaan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Herfstwandeling_door_het_Wijnjeterper_Schar_018.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_63641472",
+   "realm": "fungal",
+   "title": "Cup fungus (35605823022)",
+   "author": "Björn S...",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cup_fungus_(35605823022).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_29876155",
+   "realm": "fungal",
+   "title": "Bracket Fungus (5146312349)",
+   "author": "Randi Hausken from Bærum, Norway",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bracket_Fungus_(5146312349).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_50585682",
+   "realm": "fungal",
+   "title": "Coral fungus - Flickr - pellaea",
+   "author": "Jason Hollinger",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Coral_fungus_-_Flickr_-_pellaea.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_585414228",
+   "realm": "fungal",
+   "title": "Hemimycena tortuosa",
+   "author": "gillessanmartin",
+   "license": "by-sa",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/323512684",
+   "kept": false
+  },
+  {
+   "id": "commons_26036003",
+   "realm": "fungal",
+   "title": "Puppen-Kernkeule Cordyceps militaris",
+   "author": "Holger Krisp",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Puppen-Kernkeule_Cordyceps_militaris.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_166620761",
+   "realm": "fungal",
+   "title": "Chanterelle mushrooms Cantharellus cibarius",
+   "author": "Owain.davies",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Chanterelle_mushrooms_Cantharellus_cibarius.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_97274643",
+   "realm": "fungal",
+   "title": "Phallus impudicus 91990484",
+   "author": "Martin",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Phallus_impudicus_91990484.jpg",
+   "kept": false
+  },
+  {
+   "id": "inat_68815530",
+   "realm": "fungal",
+   "title": "Hymenochaete cruenta",
+   "author": "ninacourlee",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/43365190",
+   "kept": false
+  },
+  {
+   "id": "inat_10632559",
+   "realm": "fungal",
+   "title": "Sphaerobolus stellatus",
+   "author": "scarriere",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/8030373",
+   "kept": false
+  },
+  {
+   "id": "inat_6241987",
+   "realm": "fungal",
+   "title": "Clathrus ruber",
+   "author": "ocean_beach_goth",
+   "license": "by",
+   "source": "inat",
+   "url": "https://www.inaturalist.org/observations/5082650",
+   "kept": false
+  },
+  {
+   "id": "commons_32853628",
+   "realm": "metaphor",
+   "title": "Mora PO 35 heat exchanger, reparation (001)",
+   "author": "Juandev",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mora_PO_35_heat_exchanger,_reparation_(001).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_83510074",
+   "realm": "metaphor",
+   "title": "Розета Жича",
+   "author": "Gmihail at Serbian Wikipedia",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D0%B7%D0%B5%D1%82%D0%B0_%D0%96%D0%B8%D1%87%D0%B0.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_33348200",
+   "realm": "metaphor",
+   "title": "247 Home Rescue radiator thermostat",
+   "author": "247homerescue",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:247_Home_Rescue_radiator_thermostat.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_57544420",
+   "realm": "metaphor",
+   "title": "Wright R-3350-B Double Cyclone (1939) sectioned engine - supercharger closeup",
+   "author": "Jim1138",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Wright_R-3350-B_Double_Cyclone_(1939)_sectioned_engine_-_supercharger_closeup.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_83441196",
+   "realm": "metaphor",
+   "title": "Electronic circuit board",
+   "author": "Tom Hall",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Electronic_circuit_board.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_60349920",
+   "realm": "metaphor",
+   "title": "Hand pump ornament at Boreham, Essex, England",
+   "author": "Acabashi",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Hand_pump_ornament_at_Boreham,_Essex,_England.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80108634",
+   "realm": "metaphor",
+   "title": "AIR SAMPLING VALVE MECHANISM - NARA - 17426428",
+   "author": "Martin Brown",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AIR_SAMPLING_VALVE_MECHANISM_-_NARA_-_17426428.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_19119657",
+   "realm": "metaphor",
+   "title": "Philippsburg Nuclear Power Plant condensation turbine pic6",
+   "author": "AlfvanBeem",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Philippsburg_Nuclear_Power_Plant_condensation_turbine_pic6.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_147128124",
+   "realm": "metaphor",
+   "title": "George Bellows - Business men's bath - 1923",
+   "author": "George Bellows",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:George_Bellows_-_Business_men%27s_bath_-_1923.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_114360489",
+   "realm": "metaphor",
+   "title": "Xerox WorkCentre 6605 - gearing mechanism-8452",
+   "author": "Raimond Spekking",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Xerox_WorkCentre_6605_-_gearing_mechanism-8452.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_202409540",
+   "realm": "metaphor",
+   "title": "Heat exchanger at DEQ IST",
+   "author": "Organic sweet",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Heat_exchanger_at_DEQ_IST.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_39478564",
+   "realm": "metaphor",
+   "title": "Rose window on Madonna della Greca in Locorotondo",
+   "author": "Livioandronico2013",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rose_window_on_Madonna_della_Greca_in_Locorotondo.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_37422115",
+   "realm": "metaphor",
+   "title": "Pipe radiator 1",
+   "author": "LA2",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pipe_radiator_1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_40016811",
+   "realm": "metaphor",
+   "title": "Cutaway of Pratt & Whitney Twin Wasp (1932)",
+   "author": "Olivier Cleynen",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cutaway_of_Pratt_%26_Whitney_Twin_Wasp_(1932).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_40072920",
+   "realm": "metaphor",
+   "title": "Aurora 2ch mixer board arrived (2009-07-28 11.20.55 by c-g.)",
+   "author": "c-g.",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Aurora_2ch_mixer_board_arrived_(2009-07-28_11.20.55_by_c-g.).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_30963285",
+   "realm": "metaphor",
+   "title": "Genouillé 86 Ancienne pompe école 2014",
+   "author": "JLPC",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Genouill%C3%A9_86_Ancienne_pompe_%C3%A9cole_2014.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80108665",
+   "realm": "metaphor",
+   "title": "AIR SAMPLING VALVE MECHANISM - NARA - 17426432",
+   "author": "Martin Brown",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AIR_SAMPLING_VALVE_MECHANISM_-_NARA_-_17426432.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_175925928",
+   "realm": "metaphor",
+   "title": "Colbert Fossil Plant Tandem-Compound Turbine Rotor, US Space and Rocket Center, Huntsvill…",
+   "author": "Naomi Persephone Amethyst",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Colbert_Fossil_Plant_Tandem-Compound_Turbine_Rotor,_US_Space_and_Rocket_Center,_Huntsville,_AL.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_27651663",
+   "realm": "metaphor",
+   "title": "George Bellows - Anne with a Japanese Parasol (1917)",
+   "author": "George Bellows",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:George_Bellows_-_Anne_with_a_Japanese_Parasol_(1917).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_165525342",
+   "realm": "metaphor",
+   "title": "Gear mechanism - geograph.org.uk - 7678364",
+   "author": "Alan Hughes",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Gear_mechanism_-_geograph.org.uk_-_7678364.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_10186212",
+   "realm": "metaphor",
+   "title": "Heat exchanger make NRF (cut-away)",
+   "author": "S.J. de Waard",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Heat_exchanger_make_NRF_(cut-away).JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_94051878",
+   "realm": "metaphor",
+   "title": "Rose window, St James' Church, Wetherby (24th July 2020)",
+   "author": "Mtaylor848",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rose_window,_St_James%27_Church,_Wetherby_(24th_July_2020).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_155156803",
+   "realm": "metaphor",
+   "title": "Zentralbibliothek Zürich - Amerik. Radiator einfach - 991049901489705501",
+   "author": "Robert Breitinger",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Amerik._Radiator_einfach_-_991049901489705501.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_110353842",
+   "realm": "metaphor",
+   "title": "1953 Lister CS sectional engine",
+   "author": "Stevandtpatterson",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:1953_Lister_CS_sectional_engine.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_154096024",
+   "realm": "metaphor",
+   "title": "Circuit board, 2, Esbjerg",
+   "author": "Kent Madsen",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Circuit_board,_2,_Esbjerg.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_1302109",
+   "realm": "metaphor",
+   "title": "Water pump 0713",
+   "author": "Dori",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Water_pump_0713.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_99280743",
+   "realm": "metaphor",
+   "title": "Sherwood J-valve reserve seat mechanism open position P1260153",
+   "author": "Peter Southwood",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Sherwood_J-valve_reserve_seat_mechanism_open_position_P1260153.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_16092513",
+   "realm": "metaphor",
+   "title": "Turbine Grafenrheinfeld",
+   "author": "David Pfister-Senz",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Turbine_Grafenrheinfeld.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_87050094",
+   "realm": "metaphor",
+   "title": "Soufflet Luba (RDC)",
+   "author": "Ji-Elle",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Soufflet_Luba_(RDC).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_64383951",
+   "realm": "metaphor",
+   "title": "Cluster Of Gear With Shifting Mechanism - Kolkata 2010-07-02 6453",
+   "author": "Biswarup Ganguly",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cluster_Of_Gear_With_Shifting_Mechanism_-_Kolkata_2010-07-02_6453.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_32853639",
+   "realm": "metaphor",
+   "title": "Mora PO 35 heat exchanger, reparation (009)",
+   "author": "Juandev",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mora_PO_35_heat_exchanger,_reparation_(009).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_160789184",
+   "realm": "metaphor",
+   "title": "Denver Cathedral, window 32, back, Rose Window",
+   "author": "Workman",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Denver_Cathedral,_window_32,_back,_Rose_Window.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_118058779",
+   "realm": "metaphor",
+   "title": "Radiator in Newton, South Lanarkshire (62)",
+   "author": "Sahaib",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Radiator_in_Newton,_South_Lanarkshire_(62).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_35691219",
+   "realm": "metaphor",
+   "title": "Ruston 6APCZ Cutaway Model at Anson 6036",
+   "author": "Photograph by Clem Rutter, Rochester, Kent. (www.clemrutter.net).",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ruston_6APCZ_Cutaway_Model_at_Anson_6036.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_142122697",
+   "realm": "metaphor",
+   "title": "Caviar 2340 Hard Drive Circuit Board Side 1",
+   "author": "ComputerUserUser",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Caviar_2340_Hard_Drive_Circuit_Board_Side_1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_73743008",
+   "realm": "metaphor",
+   "title": "Hand pump, pumppukaivo, Salo, Finland",
+   "author": "Abc10",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Hand_pump,_pumppukaivo,_Salo,_Finland.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_188171126",
+   "realm": "metaphor",
+   "title": "Rotary Valve Mechanism. - DPLA - 0dc520cdf071d703384a78ecba8d95c9 (page 1)",
+   "author": "Harpst, Frederick E",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rotary_Valve_Mechanism._-_DPLA_-_0dc520cdf071d703384a78ecba8d95c9_(page_1).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_15339812",
+   "realm": "metaphor",
+   "title": "Barker Turbine Rotor located at historic Hacienda Buena Vista coffee plantation, near Pon…",
+   "author": "Jack E. Boucher, HABS/HAER",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Barker_Turbine_Rotor_located_at_historic_Hacienda_Buena_Vista_coffee_plantation,_near_Ponce.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_193594794",
+   "realm": "metaphor",
+   "title": "Smithery bellows - late 19 - early 20 c - National museum of Udmurt Republic",
+   "author": "Лапоть",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Smithery_bellows_-_late_19_-_early_20_c_-_National_museum_of_Udmurt_Republic.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_116819319",
+   "realm": "metaphor",
+   "title": "Triple Gear",
+   "author": "Saul Schleimer and Henry Segerman",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Triple_Gear.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_59356500",
+   "realm": "metaphor",
+   "title": "Bent part of a heat exchanger in a cracking tower",
+   "author": "W.carter",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bent_part_of_a_heat_exchanger_in_a_cracking_tower.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_120251351",
+   "realm": "metaphor",
+   "title": "Reims cathedral rose window 5",
+   "author": "Ad Meskens You are free to use this picture for any purpose as long as you credit its aut…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Reims_cathedral_rose_window_5.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_125665460",
+   "realm": "metaphor",
+   "title": "Termosifone stile Liberty. Royal Victoria Hotel 01",
+   "author": "Manuelarosi",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Termosifone_stile_Liberty._Royal_Victoria_Hotel_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_140708388",
+   "realm": "metaphor",
+   "title": "BMW801 14Zyl 1939 MTU-Museum 20231112 02w",
+   "author": "User:Zenwort",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BMW801_14Zyl_1939_MTU-Museum_20231112_02w.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_144950666",
+   "realm": "metaphor",
+   "title": "Circuit board of a Samsung hard disk MP0402H",
+   "author": "Mk2010",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Circuit_board_of_a_Samsung_hard_disk_MP0402H.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_35351186",
+   "realm": "metaphor",
+   "title": "Hand pump India",
+   "author": "Nikhilb239",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Hand_pump_India.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80108654",
+   "realm": "metaphor",
+   "title": "AIR SAMPLING VALVE MECHANISM - NARA - 17426430",
+   "author": "Martin Brown",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AIR_SAMPLING_VALVE_MECHANISM_-_NARA_-_17426430.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_68548396",
+   "realm": "metaphor",
+   "title": "ILA 2018, Schönefeld (1X7A5233)",
+   "author": "Matti Blume",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:ILA_2018,_Sch%C3%B6nefeld_(1X7A5233).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_58676954",
+   "realm": "metaphor",
+   "title": "Bellows MET 138514",
+   "author": "unknown author",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Bellows_MET_138514.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_7787355",
+   "realm": "metaphor",
+   "title": "A young woman employee of North American Aviation, Incorporated, working over the landing…",
+   "author": "Alfred T. Palmer",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:A_young_woman_employee_of_North_American_Aviation,_Incorporated,_working_over_the_landing_gear_mechanism_of_a_P-51_fighter_plane,_Inglewood,_Calif.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_120446460",
+   "realm": "metaphor",
+   "title": "Shell and Tube Heat Exchanger Piping 1",
+   "author": "Ivangiesen",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Shell_and_Tube_Heat_Exchanger_Piping_1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_104952001",
+   "realm": "metaphor",
+   "title": "Rose window of Basilica of Our Lady Immaculate, Guelph",
+   "author": "Maksim Sokolov (maxergon.com)",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rose_window_of_Basilica_of_Our_Lady_Immaculate,_Guelph.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_89517705",
+   "realm": "metaphor",
+   "title": "Radiator, National Museum, Wrocław",
+   "author": "Qkiel",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Radiator,_National_Museum,_Wroc%C5%82aw.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_29939764",
+   "realm": "metaphor",
+   "title": "Torpedo type 53-56 cut away A408",
+   "author": "Ciacho5",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Torpedo_type_53-56_cut_away_A408.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_52852112",
+   "realm": "metaphor",
+   "title": "SEG DVD 430 - Printed circuit board-4276",
+   "author": "Raimond Spekking",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_78389209",
+   "realm": "metaphor",
+   "title": "Hand Pump 2019-04-23 049",
+   "author": "Chris Light",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Hand_Pump_2019-04-23_049.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_99280744",
+   "realm": "metaphor",
+   "title": "Sherwood J-valve reserve seat mechanism closed position P1260156",
+   "author": "Peter Southwood",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Sherwood_J-valve_reserve_seat_mechanism_closed_position_P1260156.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_2050745",
+   "realm": "metaphor",
+   "title": "Ljungström turbine rotor",
+   "author": "Staro1",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ljungstr%C3%B6m_turbine_rotor.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_81729528",
+   "realm": "metaphor",
+   "title": "George Bellows, Jean 1923, 1923, NGA 45968",
+   "author": "George Bellows",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:George_Bellows,_Jean_1923,_1923,_NGA_45968.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_71175024",
+   "realm": "metaphor",
+   "title": "Sun and planet gear Mechanism Lego Technic Pic 1",
+   "author": "MichaelFrey",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Sun_and_planet_gear_Mechanism_Lego_Technic_Pic_1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_92939881",
+   "realm": "metaphor",
+   "title": "Shell and Tube Heat Exchanger of Chiller",
+   "author": "Saud",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Shell_and_Tube_Heat_Exchanger_of_Chiller.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_31833360",
+   "realm": "metaphor",
+   "title": "Rose window - Genoa Cathedral - Genoa 2014",
+   "author": "José Luiz",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Rose_window_-_Genoa_Cathedral_-_Genoa_2014.JPG",
+   "kept": false
+  },
+  {
+   "id": "commons_37422114",
+   "realm": "metaphor",
+   "title": "Pipe radiator 3",
+   "author": "LA2",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pipe_radiator_3.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_18713023",
+   "realm": "metaphor",
+   "title": "Cutaway of a MAN V8 Diesel engine",
+   "author": "Olivier Cleynen",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Cutaway_of_a_MAN_V8_Diesel_engine.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_59179534",
+   "realm": "metaphor",
+   "title": "LC-P computer keyboard - IC encapsulated on printed circuit board-3464",
+   "author": "Raimond Spekking",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:LC-P_computer_keyboard_-_IC_encapsulated_on_printed_circuit_board-3464.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_68838216",
+   "realm": "metaphor",
+   "title": "Water pump in Pinsk Belarus",
+   "author": "Ihar Dorinel",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Water_pump_in_Pinsk_Belarus.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80108612",
+   "realm": "metaphor",
+   "title": "AIR SAMPLING VALVE MECHANISM - NARA - 17426426",
+   "author": "Martin Brown",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:AIR_SAMPLING_VALVE_MECHANISM_-_NARA_-_17426426.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_52270690",
+   "realm": "metaphor",
+   "title": "05-Rotor de turbine",
+   "author": "Cjp24",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:05-Rotor_de_turbine.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_60866801",
+   "realm": "metaphor",
+   "title": "Repairer of Seals and Bellows MET DP818792",
+   "author": "Anne Claude Philippe, Comte de Caylus",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Repairer_of_Seals_and_Bellows_MET_DP818792.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_165834313",
+   "realm": "metaphor",
+   "title": "Lock gearing mechanism - Neath Canal - geograph.org.uk - 7706311",
+   "author": "Alan Hughes",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Lock_gearing_mechanism_-_Neath_Canal_-_geograph.org.uk_-_7706311.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_96878161",
+   "realm": "metaphor",
+   "title": "OIL COOLER HEADS - COMBUSTION AIR HEAT EXCHANGER - DPLA - 0da6195f7f7a37ae53160e877a233edc",
+   "author": "Martin Brown",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:OIL_COOLER_HEADS_-_COMBUSTION_AIR_HEAT_EXCHANGER_-_DPLA_-_0da6195f7f7a37ae53160e877a233edc.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_117556939",
+   "realm": "metaphor",
+   "title": "Soest St. Petri Taizé Rose Window 02",
+   "author": "Ad Meskens You are free to use this picture for any purpose as long as you credit its aut…",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Soest_St._Petri_Taiz%C3%A9_Rose_Window_02.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_61796362",
+   "realm": "metaphor",
+   "title": "Heat radiator",
+   "author": "Tiia Monto",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Heat_radiator.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_948512",
+   "realm": "metaphor",
+   "title": "T34 engine parola 3",
+   "author": "Balcer~commonswiki",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:T34_engine_parola_3.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_109777210",
+   "realm": "metaphor",
+   "title": "Nikon D70s circuit board",
+   "author": "Aquilaa1",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Nikon_D70s_circuit_board.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_50356774",
+   "realm": "metaphor",
+   "title": "Garden water hand pump Walled Garden at Parham House, West Sussex, England",
+   "author": "Acabashi",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Garden_water_hand_pump_Walled_Garden_at_Parham_House,_West_Sussex,_England.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_195294859",
+   "realm": "metaphor",
+   "title": "Owalla Dam rusted valve winch mechanism closeup Osun",
+   "author": "Jevuniverse",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Owalla_Dam_rusted_valve_winch_mechanism_closeup_Osun.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_36705952",
+   "realm": "metaphor",
+   "title": "Darrieus-Rotor Ennabeuren-3256",
+   "author": "DKrieger",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Darrieus-Rotor_Ennabeuren-3256.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_127825285",
+   "realm": "metaphor",
+   "title": "Mpongwe blacksmiths bellows (British Museum)",
+   "author": "Ji-Elle",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mpongwe_blacksmiths_bellows_(British_Museum).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_81571880",
+   "realm": "metaphor",
+   "title": "Quartz Watch Mechanism Closeup",
+   "author": "Glosome",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Quartz_Watch_Mechanism_Closeup.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_22929212",
+   "realm": "scifi",
+   "title": "Curiosity - Robot Geologist and Chemist in One!",
+   "author": "NASA/JPL-Caltech",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Curiosity_-_Robot_Geologist_and_Chemist_in_One!.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_186301272",
+   "realm": "scifi",
+   "title": "Recycled wolf sculpture by French artist Adrien Vinet (Vortex Recupart)",
+   "author": "Vortex Recupart",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Recycled_wolf_sculpture_by_French_artist_Adrien_Vinet_(Vortex_Recupart).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_38108314",
+   "realm": "scifi",
+   "title": "Fantasy Worlds of Myth and Magic, EMP, Seattle (15388051142)",
+   "author": "Roland Tanglao from Vancouver, Canada",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fantasy_Worlds_of_Myth_and_Magic,_EMP,_Seattle_(15388051142).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_31271684",
+   "realm": "scifi",
+   "title": "SpaceShipOne Mike Melvill waves photo Don Ramey Logan",
+   "author": "Don Ramey Logan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Mike_Melvill_waves_photo_Don_Ramey_Logan.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80319262",
+   "realm": "scifi",
+   "title": "Mandelbulb Fischauge 5 OpenCL 715404422 32K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_Fischauge_5_OpenCL_715404422_32K.png",
+   "kept": false
+  },
+  {
+   "id": "commons_80506206",
+   "realm": "scifi",
+   "title": "Mandelbulb Schnitt 8K 18072019",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_Schnitt_8K_18072019.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_76043119",
+   "realm": "scifi",
+   "title": "Pedro Meier Skulptur »Futuristische Architektur« (Eisendraht, Holz, weisse Farbe, Objet t…",
+   "author": "Pedro Meier",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Pedro_Meier_Skulptur_%C2%BBFuturistische_Architektur%C2%AB_(Eisendraht,_Holz,_weisse_Farbe,_Objet_trouv%C3%A9)_2014,_Skulpturenpark,_Atelier_Gerhard_Meier-Weg,_Niederbipp,_Schweiz._Foto_%C2%A9_Pedro_Meier_Multimedia_Artist.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_25887819",
+   "realm": "scifi",
+   "title": "Space Invasion!!! (3800401048)",
+   "author": "Benson Kua from Toronto, Canada",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Space_Invasion!!!_(3800401048).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_54869876",
+   "realm": "scifi",
+   "title": "Torso at H.R. Giger Museum - panoramio",
+   "author": "Art Anderson",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Torso_at_H.R._Giger_Museum_-_panoramio.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_79304945",
+   "realm": "scifi",
+   "title": "Abox mod kali v2 Julia-Menge OpenCL 668547882 32K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Abox_mod_kali_v2_Julia-Menge_OpenCL_668547882_32K.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014851",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Gear Version – Back Side",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Gear_Version_%E2%80%93_Back_Side.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_200043712",
+   "realm": "scifi",
+   "title": "DSC 9368 Custom chopper motorcycle with intricate organic-looking metalwork and sculpted…",
+   "author": "PattayaPatrol",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DSC_9368_Custom_chopper_motorcycle_with_intricate_organic-looking_metalwork_and_sculpted_details_on_the_tank_and_frame_displayed_at_an_outdoor_event.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_38108481",
+   "realm": "scifi",
+   "title": "Fantasy Worlds of Myth and Magic, EMP, Seattle (9482832769)",
+   "author": "Kyla Duhamel from Saskatoon, Canada",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fantasy_Worlds_of_Myth_and_Magic,_EMP,_Seattle_(9482832769).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_243132",
+   "realm": "scifi",
+   "title": "White Knight SS1 RH",
+   "author": "K. Daniel Hooper",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:White_Knight_SS1_RH.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_113794772",
+   "realm": "scifi",
+   "title": "Mandelbulb Knolle 20211229 RGBA8 höhere Tiefen",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_Knolle_20211229_RGBA8_h%C3%B6here_Tiefen.png",
+   "kept": false
+  },
+  {
+   "id": "commons_118421115",
+   "realm": "scifi",
+   "title": "Mandelbulb PWR10 RGBA8 fix 20220528",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_PWR10_RGBA8_fix_20220528.png",
+   "kept": false
+  },
+  {
+   "id": "commons_200632645",
+   "realm": "scifi",
+   "title": "DSC 8354 Futuristic nightscape illuminated sculptural pavilion and glowing terraces creat…",
+   "author": "PattayaPatrol",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DSC_8354_Futuristic_nightscape_illuminated_sculptural_pavilion_and_glowing_terraces_create_a_vibrant_modern_outdoor_scene.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_65160613",
+   "realm": "scifi",
+   "title": "HR Giger Museum Bar Gruyeres 10",
+   "author": "Xxlstier",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_Bar_Gruyeres_10.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_79222502",
+   "realm": "scifi",
+   "title": "Sierpinski 3D x Mengerschwamm OpenCL 1465854215 8K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Sierpinski_3D_x_Mengerschwamm_OpenCL_1465854215_8K.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014890",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Meter Version – Side",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Meter_Version_%E2%80%93_Side.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_9624022",
+   "realm": "scifi",
+   "title": "Sanajeh attacking sauropod",
+   "author": "Sculpture by Tyler Keillor and original photography by Ximena Erickson; image modified by…",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Sanajeh_attacking_sauropod.png",
+   "kept": false
+  },
+  {
+   "id": "commons_31271702",
+   "realm": "scifi",
+   "title": "SpaceShipOne Takeoff photo Don Ramey Logan",
+   "author": "Don Ramey Logan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Takeoff_photo_Don_Ramey_Logan.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_81072182",
+   "realm": "scifi",
+   "title": "Mandelbulb unter v. 2.19 002 normal 06082019",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_unter_v._2.19_002_normal_06082019.png",
+   "kept": false
+  },
+  {
+   "id": "commons_80782654",
+   "realm": "scifi",
+   "title": "Mandelbulb - Bermarte 25072019",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_-_Bermarte_25072019.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_145351263",
+   "realm": "scifi",
+   "title": "4 Runner Walenty Pytel Futiristic Runner Blind college Hereford",
+   "author": "Walenty Pytel",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:4_Runner_Walenty_Pytel_Futiristic_Runner_Blind_college_Hereford.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_96242168",
+   "realm": "scifi",
+   "title": "HR Giger Museum (Ank Infosys Limited) 04",
+   "author": "Ank Kumar",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_(Ank_Infosys_Limited)_04.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_79222886",
+   "realm": "scifi",
+   "title": "Mix Pinski 4D x Sierpinski 3D OpenCL 7714572417485142 8K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mix_Pinski_4D_x_Sierpinski_3D_OpenCL_7714572417485142_8K.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014865",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Gear Version – Side",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Gear_Version_%E2%80%93_Side.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_200042859",
+   "realm": "scifi",
+   "title": "DSC 9327 A custom motorcycle transformed into a biomechanical alien-inspired sculpture wi…",
+   "author": "PattayaPatrol",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:DSC_9327_A_custom_motorcycle_transformed_into_a_biomechanical_alien-inspired_sculpture_with_intricate_ridged_skull_tubing_and_organic-looking_details.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_35121837",
+   "realm": "scifi",
+   "title": "Flight 16P taxi pre-launch photo Don Ramey Logan",
+   "author": "Don Ramey Logan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Flight_16P_taxi_pre-launch_photo_Don_Ramey_Logan.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_112860941",
+   "realm": "scifi",
+   "title": "Mandelbulb PWR6 front RGBA8 20211127",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_PWR6_front_RGBA8_20211127.png",
+   "kept": false
+  },
+  {
+   "id": "commons_118689510",
+   "realm": "scifi",
+   "title": "Mandelbulb PWR8 RGBA8fix 20220522",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_PWR8_RGBA8fix_20220522.png",
+   "kept": false
+  },
+  {
+   "id": "commons_170579208",
+   "realm": "scifi",
+   "title": "A futuristic sculpture^ - geograph.org.uk - 7945069",
+   "author": "David Medcalf",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:A_futuristic_sculpture%5E_-_geograph.org.uk_-_7945069.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_96242175",
+   "realm": "scifi",
+   "title": "HR Giger Museum (Ank Infosys Limited) 08",
+   "author": "Ank Kumar",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_(Ank_Infosys_Limited)_08.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_79304968",
+   "realm": "scifi",
+   "title": "Frame 0002185 28052019",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Frame_0002185_28052019.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23019734",
+   "realm": "scifi",
+   "title": "SUPT Tin Wind Up Robby Robot with Sparkling Action Dome Head with Human Face Side",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SUPT_Tin_Wind_Up_Robby_Robot_with_Sparkling_Action_Dome_Head_with_Human_Face_Side.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_33301924",
+   "realm": "scifi",
+   "title": "SpaceShipOne in Googleplex",
+   "author": "Runner1928",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_in_Googleplex.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_86713367",
+   "realm": "scifi",
+   "title": "Mengerbulb 003 20200206 8K HQ Fulldome",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mengerbulb_003_20200206_8K_HQ_Fulldome.png",
+   "kept": false
+  },
+  {
+   "id": "commons_97279311",
+   "realm": "scifi",
+   "title": "Mandelbulb OpenCL 225MPx 20201202",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_OpenCL_225MPx_20201202.png",
+   "kept": false
+  },
+  {
+   "id": "commons_145351264",
+   "realm": "scifi",
+   "title": "4 Runner Walenty Pytel Futuristic Runner Blind College Hereford Galvanized Steel",
+   "author": "Walenty Pytel",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:4_Runner_Walenty_Pytel_Futuristic_Runner_Blind_College_Hereford_Galvanized_Steel.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_149737783",
+   "realm": "scifi",
+   "title": "A 1 giger museum on april 2024 d",
+   "author": "Blackberrijack",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:A_1_giger_museum_on_april_2024_d.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_79304962",
+   "realm": "scifi",
+   "title": "Abox mod kali v2 Julia-Menge OpenCL 751502086 32K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Abox_mod_kali_v2_Julia-Menge_OpenCL_751502086_32K.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014884",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Meter Version – Close Up",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Meter_Version_%E2%80%93_Close_Up.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_124689778",
+   "realm": "scifi",
+   "title": "Spaceship osciron 01",
+   "author": "Tabitan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Spaceship_osciron_01.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80318741",
+   "realm": "scifi",
+   "title": "Mandelbulb Fischauge OpenCL 213465428 32K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_Fischauge_OpenCL_213465428_32K.png",
+   "kept": false
+  },
+  {
+   "id": "commons_81072190",
+   "realm": "scifi",
+   "title": "Mandelbulb unter v. 2.19 002 world",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_unter_v._2.19_002_world.png",
+   "kept": false
+  },
+  {
+   "id": "commons_198927738",
+   "realm": "scifi",
+   "title": "Kyoto Station - 92867493",
+   "author": "xiquinhosilva",
+   "license": "by",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Kyoto_Station_-_92867493.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_149792720",
+   "realm": "scifi",
+   "title": "A alien giger on april 2024 1978",
+   "author": "Blackberrijack",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:A_alien_giger_on_april_2024_1978.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_85583340",
+   "realm": "scifi",
+   "title": "20 - 3D Mandelbulb",
+   "author": "Mariagat Włodek Głażewski",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:20_-_3D_Mandelbulb.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014866",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Gun Fighting Version – Back Side",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Gun_Fighting_Version_%E2%80%93_Back_Side.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_46202099",
+   "realm": "scifi",
+   "title": "Mockup de Rocketplane y Spaceship One (872427219)",
+   "author": "Pablo de Leon",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mockup_de_Rocketplane_y_Spaceship_One_(872427219).jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80533588",
+   "realm": "scifi",
+   "title": "Mandelbulb x T Surf Box Fold OpenCL 19072019 16K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_x_T_Surf_Box_Fold_OpenCL_19072019_16K.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_80506208",
+   "realm": "scifi",
+   "title": "Mandelbulb 100 MPx neu 18072019",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_100_MPx_neu_18072019.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_96242166",
+   "realm": "scifi",
+   "title": "HR Giger Museum (Ank Infosys Limited) 02",
+   "author": "Ank Kumar",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_(Ank_Infosys_Limited)_02.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_79304937",
+   "realm": "scifi",
+   "title": "Abox mod kali v2 Julia-Menge OpenCL 668545882 8K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Abox_mod_kali_v2_Julia-Menge_OpenCL_668545882_8K.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014868",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Gun Fighting Version – Box - Lazy!!",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Gun_Fighting_Version_%E2%80%93_Box_-_Lazy!!.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_31447839",
+   "realm": "scifi",
+   "title": "SpaceShipOne Flight 15P photo Don Ramey Logan",
+   "author": "Don Ramey Logan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_112402622",
+   "realm": "scifi",
+   "title": "MandelbulbPWR3 20211109 RGBA8",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:MandelbulbPWR3_20211109_RGBA8.png",
+   "kept": false
+  },
+  {
+   "id": "commons_79550861",
+   "realm": "scifi",
+   "title": "Mandelbulb stereo 752528845 32K",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_stereo_752528845_32K.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_37306776",
+   "realm": "scifi",
+   "title": "H. R. Giger Museum - Entrance",
+   "author": "Fay1982",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:H._R._Giger_Museum_-_Entrance.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_99794611",
+   "realm": "scifi",
+   "title": "Fractal Art Series1",
+   "author": "_ThomasWallaceScherzer_",
+   "license": "pdm",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fractal_Art_Series1.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014877",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Gun Fighting Version – Side",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Gun_Fighting_Version_%E2%80%93_Side.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_12626961",
+   "realm": "scifi",
+   "title": "SpaceShipOne test pilot Mike Melvill after the launch in pursuit of the Ansari X Prize on…",
+   "author": "Renegadeaven at English Wikipedia.",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_test_pilot_Mike_Melvill_after_the_launch_in_pursuit_of_the_Ansari_X_Prize_on_September_29,_2004.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_81072186",
+   "realm": "scifi",
+   "title": "Mandelbulb unter v. 2.19 002 06082019",
+   "author": "PantheraLeo1359531",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_unter_v._2.19_002_06082019.png",
+   "kept": false
+  },
+  {
+   "id": "commons_119021350",
+   "realm": "scifi",
+   "title": "Mandelbulb JuliaXY 0,5 RGBA8 fix 20220606",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_JuliaXY_0,5_RGBA8_fix_20220606.png",
+   "kept": false
+  },
+  {
+   "id": "commons_65160611",
+   "realm": "scifi",
+   "title": "HR Giger Museum Bar Gruyeres 09",
+   "author": "Xxlstier",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_Bar_Gruyeres_09.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_25964171",
+   "realm": "scifi",
+   "title": "Fractal XaoS 3D",
+   "author": "Ирина Печкарёва",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fractal_XaoS_3D.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23013114",
+   "realm": "scifi",
+   "title": "Ha Ha Toy – Tin Wind Up – Mechanical Robby Robot – with Masuyada R-35 Head – Chrome Versi…",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Ha_Ha_Toy_%E2%80%93_Tin_Wind_Up_%E2%80%93_Mechanical_Robby_Robot_%E2%80%93_with_Masuyada_R-35_Head_%E2%80%93_Chrome_Version_%E2%80%93_Front.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_31421792",
+   "realm": "scifi",
+   "title": "SpaceShipOne Final Flight Sept 2004 photo Don Ramey Logan",
+   "author": "Don Ramey Logan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Final_Flight_Sept_2004_photo_Don_Ramey_Logan.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_90600619",
+   "realm": "scifi",
+   "title": "BuffaloxMandelbulb HQ OpenCL 8K 20200524",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:BuffaloxMandelbulb_HQ_OpenCL_8K_20200524.png",
+   "kept": false
+  },
+  {
+   "id": "commons_118479949",
+   "realm": "scifi",
+   "title": "Mandelbulb PWR11 20220529 RGBA8 fix",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_PWR11_20220529_RGBA8_fix.png",
+   "kept": false
+  },
+  {
+   "id": "commons_96242169",
+   "realm": "scifi",
+   "title": "HR Giger Museum (Ank Infosys Limited) 03",
+   "author": "Ank Kumar",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_(Ank_Infosys_Limited)_03.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_68730235",
+   "realm": "scifi",
+   "title": "Fractal 1420558 BJH",
+   "author": "Ernst Dittmar",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Fractal_1420558_BJH.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_87574466",
+   "realm": "scifi",
+   "title": "Starship Robot Up Close",
+   "author": "Mbrickn",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Starship_Robot_Up_Close.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_31410505",
+   "realm": "scifi",
+   "title": "SpaceShipOne Takes Off photo Don Ramey Logan",
+   "author": "Don Ramey Logan",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Takes_Off_photo_Don_Ramey_Logan.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_114270252",
+   "realm": "scifi",
+   "title": "MandelbulbVogelperspektive 20220113 RGBA8",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:MandelbulbVogelperspektive_20220113_RGBA8.png",
+   "kept": false
+  },
+  {
+   "id": "commons_112815319",
+   "realm": "scifi",
+   "title": "Mandelbulb PWR4 front RGBA8",
+   "author": "PantheraLeo1359531",
+   "license": "cc0",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Mandelbulb_PWR4_front_RGBA8.png",
+   "kept": false
+  },
+  {
+   "id": "commons_96242185",
+   "realm": "scifi",
+   "title": "HR Giger Museum (Ank Infosys Limited) 11",
+   "author": "Ank Kumar",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_(Ank_Infosys_Limited)_11.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_8483546",
+   "realm": "scifi",
+   "title": "Apophysis 3D fractal ball",
+   "author": "Garden",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Apophysis_3D_fractal_ball.jpg",
+   "kept": false
+  },
+  {
+   "id": "commons_23014874",
+   "realm": "scifi",
+   "title": "Metal House – Hex Head Robot (六角ロボット) – Gun Fighting Version – Front",
+   "author": "D J Shin",
+   "license": "by-sa",
+   "source": "commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Metal_House_%E2%80%93_Hex_Head_Robot_(%E5%85%AD%E8%A7%92%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Gun_Fighting_Version_%E2%80%93_Front.jpg",
+   "kept": false
+  }
+ ]
+}

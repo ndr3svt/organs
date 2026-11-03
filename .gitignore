@@ -3,14 +3,17 @@
 .env.*
 !.env.example
 
-# private data, never committed
-data/
+# private data, never committed (anchored to the repo root, so the showcase's own data/ is not caught)
+/data/
 checkpoints/
 runs/
 *.pt
 *.pth
 *.ckpt
 *.zip
+
+# showcase thumbnails are other people's photos: committed only in the private portfolio repo at deploy
+data_for_the_arts_showcase/img/
 
 # python
 .venv/
