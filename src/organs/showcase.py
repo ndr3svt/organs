@@ -70,12 +70,14 @@ def _eligible(rec: dict) -> bool:
 def select(records: dict[str, dict], per_class: int, seed: int) -> list[dict]:
     """Balanced, license-safe sample per realm: kept images first, then round-robin over queries for variety."""
     cur = _curation()
+    banned = [re.compile(p, re.I) for p in cur.get("exclude_titles", [])]  # e.g. a painter who shares a query word
     out: list[dict] = []
     for cls in CLASSES:
         pool = [
             r for r in records.values()
             if r["class"] == cls and _eligible(r) and r["id"] not in cur["exclude"]
             and r["source"] not in cur.get("exclude_sources", [])
+            and not any(p.search(r["title"]) for p in banned)
         ]
         rng = random.Random(f"{seed}:{cls}")
         forced = [r for r in pool if r["id"] in cur["include"]]

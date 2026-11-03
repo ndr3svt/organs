@@ -1,7 +1,7 @@
 // 03 Numbers: three small figures drawn as inline SVG from the aggregates, each backed by a hidden table.
 // Color is used only for the realms; everything else is ink at different strengths.
-import { $, el, svg, fmt } from './dom.js?v=22f63765';
-import { SOURCE_LABEL } from './data.js?v=22f63765';
+import { $, el, svg, fmt } from './dom.js?v=a9a1ee1a';
+import { SOURCE_LABEL } from './data.js?v=a9a1ee1a';
 
 const W = 1000; // svg user units; the svg stretches to its column
 const H = 14;

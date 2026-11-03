@@ -1,5 +1,5 @@
 // 01 Realms: one row per realm with its count, its share of the collection and a strip of tiles.
-import { $, el, fmt } from './dom.js?v=22f63765';
+import { $, el, fmt } from './dom.js?v=a9a1ee1a';
 
 const TILES = 16;
 

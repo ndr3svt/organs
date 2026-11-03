@@ -1,7 +1,7 @@
 // 02 Specimen: a slider through the cutouts, and a second slider that moves one specimen
 // from the source photograph to the cutout to the class mask.
-import { $, el, safeUrl } from './dom.js?v=22f63765';
-import { LICENSE_LABEL, LICENSE_URL, SOURCE_LABEL } from './data.js?v=22f63765';
+import { $, el, safeUrl } from './dom.js?v=a9a1ee1a';
+import { LICENSE_LABEL, LICENSE_URL, SOURCE_LABEL } from './data.js?v=a9a1ee1a';
 
 const NOTES = [
   ['source', 'The photograph as found: an organ in a jar, in a dish, on a forest floor. Backgrounds differ, and a model would learn the backgrounds as much as the organs.'],
@@ -62,15 +62,16 @@ export function initSpecimen(data, { onShow }) {
     const s = list[pos];
     const mine = ++token;
 
+    // What the slider itself says updates at once. What is said about the image must not run ahead of it.
     readout.textContent = pad(pos + 1);
     of.textContent = `/ ${pad(list.length)}`;
     range.value = String(pos + 1);
     range.setAttribute('aria-valuetext', `${pos + 1} of ${list.length}: ${s.title}`);
-    renderCaption(s);
-    layers.cutout.alt = `${s.title}, cutout on a neutral ground`;
     onShow({ realm, id: s.id });
 
-    // Swap all three layers together, only once they have loaded, and only if this is still the latest request.
+    // Swap the three layers, the caption and the alt text together, only once the images have loaded,
+    // and only if this is still the latest request. Otherwise a fast scrub shows one specimen's picture
+    // under another one's title and credit.
     const pending = Object.entries(layers).map(async ([kind, img]) => {
       const next = new Image();
       next.src = data.url(kind, s.id);
@@ -80,6 +81,8 @@ export function initSpecimen(data, { onShow }) {
     const ready = await Promise.all(pending);
     if (mine !== token) return;
     for (const [img, src] of ready) img.src = src;
+    layers.cutout.alt = `${s.title}, cutout on a neutral ground`;
+    renderCaption(s);
 
     preload(pos - 1);
     preload(pos + 1);

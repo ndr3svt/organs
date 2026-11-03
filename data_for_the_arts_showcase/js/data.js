@@ -2,7 +2,7 @@
 // so image URLs bypass caches exactly when they should.
 
 export async function loadData() {
-  const response = await fetch('data/showcase.json?v=22f63765');
+  const response = await fetch('data/showcase.json?v=a9a1ee1a');
   if (!response.ok) throw new Error(`showcase.json: HTTP ${response.status}`);
   const data = await response.json();
   data.byId = new Map(data.specimens.map((s) => [s.id, s]));

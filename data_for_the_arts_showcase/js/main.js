@@ -1,9 +1,9 @@
-import { loadData } from './data.js?v=22f63765';
-import { $, el, fmt } from './dom.js?v=22f63765';
-import { renderRealms } from './realms.js?v=22f63765';
-import { initSpecimen } from './specimen.js?v=22f63765';
-import { renderCharts } from './charts.js?v=22f63765';
-import { renderCredits } from './credits.js?v=22f63765';
+import { loadData } from './data.js?v=a9a1ee1a';
+import { $, el, fmt } from './dom.js?v=a9a1ee1a';
+import { renderRealms } from './realms.js?v=a9a1ee1a';
+import { initSpecimen } from './specimen.js?v=a9a1ee1a';
+import { renderCharts } from './charts.js?v=a9a1ee1a';
+import { renderCredits } from './credits.js?v=a9a1ee1a';
 
 const meta = $('#meta');
 

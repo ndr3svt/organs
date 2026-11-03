@@ -1,5 +1,6 @@
 {
   "exclude_sources": ["wellcome"],
+  "exclude_titles": ["George Bellows", "DPLA"],
   "exclude": [
     "commons_18627453", "commons_85559783", "wellcome_hpftwx9f", "wellcome_w38bnz7s", "commons_153882178",
     "commons_27711221", "wellcome_ezec2wda", "wellcome_c5eh6kxg", "commons_26433337", "commons_71743588",
@@ -40,7 +41,28 @@
     "commons_110492111", "commons_110492087", "commons_30878755", "commons_127083167", "commons_162930192",
     "commons_80879231", "commons_80879203", "commons_84615239",
 
-    "commons_36028797", "commons_179683852"
+    "commons_36028797", "commons_179683852",
+
+    "commons_43305278", "commons_102686716", "inat_120009761",
+
+    "commons_61569292", "commons_102686710", "commons_129824963", "commons_147128124", "commons_7787355",
+    "commons_188171126", "commons_153016970", "inat_127638745",
+
+    "commons_24372174", "commons_198050932", "commons_107585422", "commons_93172820", "commons_110492104",
+    "commons_110492098", "commons_178883466", "commons_80879229", "commons_80879232", "commons_127083169",
+
+    "commons_76495991", "commons_83710227", "commons_1468736", "commons_86848063", "commons_62712440",
+    "commons_60189335", "commons_162697597", "commons_188609026", "commons_75975325", "commons_112792376",
+
+    "commons_83630499", "commons_99273183", "commons_79293811",
+
+    "commons_24372284", "commons_4843076", "commons_194182538", "commons_133110465", "commons_36059274",
+    "commons_8029199", "commons_74794701", "commons_199069537", "commons_80879230",
+
+    "commons_196326337", "commons_198077042",
+    "commons_3728308", "commons_26986463", "commons_71244462", "commons_36452333",
+
+    "commons_55887308", "commons_197047161"
   ],
   "include": []
 }

@@ -1,6 +1,6 @@
 // 05 Credits: every shown image with its author, license and source. Built lazily, when the list is opened.
-import { $, el, safeUrl } from './dom.js?v=22f63765';
-import { LICENSE_LABEL, LICENSE_URL, SOURCE_LABEL } from './data.js?v=22f63765';
+import { $, el, safeUrl } from './dom.js?v=a9a1ee1a';
+import { LICENSE_LABEL, LICENSE_URL, SOURCE_LABEL } from './data.js?v=a9a1ee1a';
 
 export function renderCredits(data) {
   const details = $('#credits-list');
