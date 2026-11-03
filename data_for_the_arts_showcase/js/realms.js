@@ -1,5 +1,5 @@
 // 01 Realms: one row per realm with its count, its share of the collection and a strip of tiles.
-import { $, el, fmt } from './dom.js?v=f241b670';
+import { $, el, fmt } from './dom.js?v=22f63765';
 
 const TILES = 16;
 
@@ -26,7 +26,9 @@ export function renderRealms(data, { onRealm, onPick }) {
       tiles.map((s) =>
         el(
           'button',
-          { type: 'button', class: 'tile', 'data-id': s.id, 'aria-label': `Show ${s.title}`, onclick: () => onPick(s.id) },
+          // Tiles are a pointer shortcut. The specimen slider already reaches every one by keyboard,
+          // so they stay out of the tab order instead of putting 80 stops before the sliders.
+          { type: 'button', class: 'tile', tabindex: '-1', 'data-id': s.id, 'aria-label': `Show ${s.title}`, onclick: () => onPick(s.id) },
           el('img', { src: data.url('tile', s.id), alt: '', loading: 'lazy', decoding: 'async', width: 128, height: 128 })
         )
       )

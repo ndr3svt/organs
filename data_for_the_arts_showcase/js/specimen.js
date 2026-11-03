@@ -1,7 +1,7 @@
 // 02 Specimen: a slider through the cutouts, and a second slider that moves one specimen
 // from the source photograph to the cutout to the class mask.
-import { $, el, safeUrl } from './dom.js?v=f241b670';
-import { LICENSE_LABEL, LICENSE_URL, SOURCE_LABEL } from './data.js?v=f241b670';
+import { $, el, safeUrl } from './dom.js?v=22f63765';
+import { LICENSE_LABEL, LICENSE_URL, SOURCE_LABEL } from './data.js?v=22f63765';
 
 const NOTES = [
   ['source', 'The photograph as found: an organ in a jar, in a dish, on a forest floor. Backgrounds differ, and a model would learn the backgrounds as much as the organs.'],

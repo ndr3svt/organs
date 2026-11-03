@@ -1,18 +1,24 @@
 // 03 Numbers: three small figures drawn as inline SVG from the aggregates, each backed by a hidden table.
 // Color is used only for the realms; everything else is ink at different strengths.
-import { $, el, svg, fmt } from './dom.js?v=f241b670';
-import { SOURCE_LABEL } from './data.js?v=f241b670';
+import { $, el, svg, fmt } from './dom.js?v=22f63765';
+import { SOURCE_LABEL } from './data.js?v=22f63765';
 
 const W = 1000; // svg user units; the svg stretches to its column
 const H = 14;
 
+// A table never shrinks below its content, so it cannot be hidden with width: 1px itself: it would still
+// widen the page. The clipping wrapper does the hiding; the table stays available to screen readers.
 function table(caption, head, rows) {
   return el(
-    'table',
+    'div',
     { class: 'sr-only' },
-    el('caption', {}, caption),
-    el('thead', {}, el('tr', {}, head.map((h) => el('th', { scope: 'col' }, h)))),
-    el('tbody', {}, rows.map((r) => el('tr', {}, r.map((cell, i) => el(i ? 'td' : 'th', i ? {} : { scope: 'row' }, String(cell))))))
+    el(
+      'table',
+      {},
+      el('caption', {}, caption),
+      el('thead', {}, el('tr', {}, head.map((h) => el('th', { scope: 'col' }, h)))),
+      el('tbody', {}, rows.map((r) => el('tr', {}, r.map((cell, i) => el(i ? 'td' : 'th', i ? {} : { scope: 'row' }, String(cell))))))
+    )
   );
 }
 
